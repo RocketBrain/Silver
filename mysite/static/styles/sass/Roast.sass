@@ -1,0 +1,318 @@
+@import "compass/css3"
+@import "compass/css3/font-face"
+@include font-face("Cabin", font-files("Cabin-Medium-TTF.ttf", "Cabin-Regular.otf"))
+@import url(https://fonts.googleapis.com/css?family=Cabin)
+
+
+.top-bar
+    background-color: #00427A
+    ul 
+        background-color: #BFC0C3
+
+    li
+        color: white
+        a:hover
+            color: yellow
+    a 
+        color: white 
+
+
+
+
+.navbar-brand
+    background-color: black
+.navbar-collapse 
+    background-color: black  
+
+.dropdown-toggle    
+    background-color: black
+
+
+
+.dropdown-menu
+    background-color: #FED998
+
+
+.navbar navbar-default  
+    background-color: #FED998
+
+.navbar-collapse .collapsenavbar 
+    background-color: #FED111
+
+.navbar navbar-default   
+    background-color: #81392c
+
+
+
+
+    
+
+
+a
+    color: blue
+
+body 
+    
+
+    
+
+
+.content 
+    width: 69.999%
+    float: right
+    padding: 20px
+    box-sizing: border-box
+    margin-top: 0px
+    background: rgba(87,70,90,0)
+    font-family: Cabin
+    font-size: 16px
+               
+
+.content-wrapper 
+    width: 900px
+    margin: 0 auto
+    background: rgba(255,255,255,1)
+
+
+//.container
+    // Main container containing background image
+    //background-image: url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg)    
+            
+
+.left-bar 
+    width: 30%
+    float: left
+    padding: 20px
+    box-sizing: border-box
+     
+
+.backdrop
+    // The actual white space where all the text goes
+    height: 900px
+    width: 904px
+    color: white
+    border: 1px solid white
+    background-color: #81392C
+    margin: 30px auto    
+    
+               
+// Old Content:
+
+
+
+/**
+.shadow 
+    background-image: url(http://www.theroastinghouse.com/images/681_nav.png)
+    height: 20px
+    width: 874px
+    min-height: 1%
+    padding: 0 15px
+    line-height:normal
+    margin: 0 auto
+    margin-bottom: -20px
+    position: relative
+
+
+
+.container-pic
+    //pic of coffee beans within wrapper
+    height: 267px
+    width: 904px
+    margin: 0 auto
+    background-image: url(http://www.theroastinghouse.com/images/bg_fx2n.jp)    
+
+.beam-pic
+    //beam supporting pictures
+    height: 44px
+    width: 904px
+    margin: 0 auto
+    background-image: url(http://www.theroastinghouse.com/images/681_beam_top.png)
+
+
+
+.content-left
+    // To positing a <div> left
+    float: left
+    width: 50%
+
+.content-right
+    // To positing a <div> right
+    float: right
+    width: 50%
+
+.content-center
+    // <div> center  
+    float: center
+    width: 50%    
+
+p.backdrop-text
+    //Text inside backdrop
+    color: red
+    font-family: Georgia
+    font-size: 18px
+    margin-left: 47px
+    position: relative
+    display: inline-block
+    clear: both
+    float: left
+
+p.backdrop-text-2
+    //Text inside backdrop, center.
+    color: black
+    font-family: Georgia
+    font-size: 18px
+    margin-left: 60px 
+    margin-bottom: 200px   
+    clear: both
+    display: inline-block
+
+
+.backdrop-text-2
+    //Text inside backdrop, center.
+    display: block
+    color: red
+    font-family: Georgia
+    font-size: 18px
+    margin-left: 255px 
+    margin-bottom: 200px
+    clear: both
+    
+
+
+
+strong
+    text-decoration: underline  
+
+input[type="text"] 
+    display: block
+    width: 173px
+    font-family: sans-serif
+    font-size: 18px
+    margin-bottom: 30px
+    margin-left: 50px
+    right: 50px
+    position: relative
+    clear: both
+    color: black
+
+
+.align-left
+    // For <div> containing text to align
+    text-align: left
+
+.align-right
+    // For <div> containing text to align
+    text-align: right
+
+.text-left
+    // For <span> elements
+    display: inline-block
+    float: left
+
+.text-right
+    // For <span> elements
+    display: inline-block
+    float: right
+
+.text-center
+    // For <div> containing text to align
+    text-align: center
+
+h1.invoice-text
+    color: black
+    font: 28px Arial
+    margin-top: 20px
+
+#date
+    box-sizing: content-box
+    color: black
+    background-color: rgb(218, 218, 219)
+    font:  20px  Arial, sans-serif
+    display: inline-block
+    margin-top: 20px
+    padding: 3px
+
+#contacts
+    top: 75px
+
+#bill-to, #payments-to
+    box-sizing: border-box
+    background-color: rgb(67,67,67)
+    color: white
+    font: 13px Cabin
+    padding: 10px 12px
+    min-height: 110px
+    p
+        margin-top: 0
+        margin-bottom: 5px
+        font: bold 16px  Arial, sans-serif
+
+#bill-to
+    margin-right: 10px
+
+#payments-to
+    margin-left: 10px
+
+#invoice-terms
+    box-sizing: border-box
+    margin-top: 20px
+    height: 36px
+    padding: 8px 12px
+    background-color: rgb(67,67,67)
+    color: rgb(255, 255, 255)
+    font:  15px  Arial, sans-serif
+
+#table-header
+    box-sizing: border-box
+    margin-top: 20px
+    height: 36px
+    padding: 8px 12px
+    background-color: rgb(67,67,67)
+    color: rgb(255, 255, 255)
+    font:  15px  Arial, sans-serif
+
+#box-container
+    position: relative
+    height: 255px
+
+table
+    margin-top: 20px
+    width: 100%
+
+td
+    width: 33%
+    height: 14px
+    // 4px vertically centers the text:
+    padding: 4px 12px
+    border: 1px solid black
+    border-top: 0
+    border-left: 0
+    font: 12px Arial
+    &.description
+        text-align: left
+    &.amount
+        text-align: right
+    &:first-child
+        border-left: 1px solid black
+    &.spacer
+        height: 60px
+        border-bottom: 0
+    &.left-spacer
+        border-bottom: 0
+
+.credit-total-text, .credit-total-amount
+    height: 23px
+    // 8px for vertically aligning text
+    padding-top: 8px
+
+#credit-text, #credit-amount
+    border-top: solid 1px black
+
+.credit-total-text
+    padding-left: 12px
+    font: 11px Arial
+
+.credit-total-amount
+    text-align: right
+    padding-right: 12px
+    font: 12px Arial
