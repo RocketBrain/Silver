@@ -30,10 +30,13 @@
             <div class="top-bar">
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
-                         <li class="menu-text" img src = "silver1.png">Silver State Coffee Co.</li>
+                    <!-- this is not working <img> </img> -->
+                         <li class="menu-text">Silver State Coffee Co.</li>
+
 
                         {% show_menu 0 1 100 100 "menu.html" %}
                     </ul>
+
                 </div>
             </div>
             {% block content %}{% endblock content %}
