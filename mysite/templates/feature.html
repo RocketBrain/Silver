@@ -4,15 +4,29 @@
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
 {% block content %}
-    <div class="jumbotro">
-        {% placeholder "feature" %}
-    </div>
-    <div class="left-bar">
+	<p> </p>
+	
+	
+
+	<div class="content-wrapper">
+
+
+
+		<div class="left-bar">
+
 			 {% placeholder "leftbar" %}
 			
 			
+			
+		</div>
+		<div class="content">
+			 {% placeholder "content" %}
+
+
+		</div>
 	</div>
-    <div>
-        {% placeholder "content" %}
-    </div>
+	
+<footer>
+  {% static_placeholder 'footer' %}
+</footer>
 {% endblock content %}
