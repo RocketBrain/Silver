@@ -5,50 +5,52 @@
         <meta charset="utf-8">
         <title>{% block title %}This is my new project home page{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title> Foundation Starter Template</title>
-        <link rel="stylesheet"  href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
-         <!--  <title>Foundation Starter Template</title>
-          <link rel="stylesheet" href="css/foundation.css" />--> 
+        <title>Silver State Coffee Co.</title>
 
+        <link rel="stylesheet"  href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
         <link type="text/css" link rel="stylesheet" href="/static/styles/stylesheets/Roast.css">
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css"> 
-     
-
-                    {% render_block "css" %}
+        {% render_block "css" %}
     </head>
-    
+
 
     <body>
-   
-   
-
-
 
         {% cms_toolbar %}
         <div class="container">
+
+            <!-- NAVIGATION -->
             <div class="top-bar">
-            <img> </img>
+                <!-- LEFT side -->
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
-                    <!-- this is not working <img> </img> -->
-                         <li class="menu-text">Silver State Coffee Co.</li>
+                        <li class="menu-text">Silver State Coffee Co.</li>
+                    </ul>
+                </div>
 
+                <!-- Div holds image as background -->
+                <div id="logo-container"></div>
 
+                <!-- RIGHT side -->
+                <div class="top-bar-right">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <!--dynamically generates the menu -->
                         {% show_menu 0 1 100 100 "menu.html" %}
                     </ul>
-
                 </div>
             </div>
+
+            <!-- PAGE CONTENT -->
             {% block content %}{% endblock content %}
+
         </div>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
         {% render_block "js" %}
 
-          <script src="{% static 'foundation/bower_components/foundation-sites/dist/foundation.min.js' %}"></script>
-           <script>
-             $(document).foundation();
-           </script>
+        <script src="{% static 'foundation/bower_components/foundation-sites/dist/foundation.min.js' %}"></script>
+        <script>
+            $(document).foundation();
+        </script>
     </body>
 </html>
