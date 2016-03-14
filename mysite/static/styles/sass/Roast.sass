@@ -8,18 +8,11 @@
     background-color: #1e1e1e
     height: 64px
     border: solid 1px #00427a
-    position: absolute
+
     //left: 200px
 
     ul
         background-color: #1e1e1e
-        #logo-container
-            background-image: url("/static/img/silver1.png")
-            float: left
-            margin-left:
-            height: 120px
-            width: 120px
-    li
         color: white
         a:hover
             color: #00427a
@@ -30,28 +23,57 @@
         float: right
         clear: both
 
+
+.top-bar-right
+    float: right
+
+
+
+.top-bar-left
+    li
+        margin-left: 0px
+        float: left
+    #logo-container
+        background-image: url(silver1.png)
+        height: 220px
+        width: 220px
+        margin: 0 auto
+
+
+
 .menu-text
     font-family: Cabin
     font-size: 33px
     float: left
 
 
+#logo-container
+    position: absolute
+    top: 0
+    left: 50%
+    margin-left: -64px
+    background-image: url(silver1.png)
+    height: 128px
+    width: 128px
+    background-size: contain
+
+
+
 body
-    background-image: url("http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg")
+    background-image: url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg)
     background-repeat: no-repeat
     background-size: 100% 100%
 
 
 
 .silver1
-    background-image: url("http://www.w3schools.com/html/pic_mountain.jpg")
-    border: 2px solid white
-    display: block
-    position: relative
-    width: 30px
-    height: 30px
-    margin-left: 600px
-    margin-bottom: 150px
+    background-image: url(silver1.png)
+    border: 1px solid white
+    width: 150px
+    height: 250px
+    margin-right: 400px
+
+
 
 
 .content-right
@@ -137,40 +159,30 @@ p.content
         margin: 0 auto
         margin-bottom: -20px
         position: relative
-
-
-
     .container-pic
         //pic of coffee beans within wrapper
         height: 267px
         width: 904px
         margin: 0 auto
         background-image: url("http://www.theroastinghouse.com/images/bg_fx2n.jpg")
-
     .beam-pic
         //beam supporting pictures
         height: 44px
         width: 904px
         margin: 0 auto
         background-image: url("http://www.theroastinghouse.com/images/681_beam_top.png")
-
-
-
     .content-left
         // To positing a <div> left
         float: left
         width: 50%
-
     .content-right
         // To positing a <div> right
         float: right
         width: 50%
-
     .content-center
         // <div> center
         float: center
         width: 50%
-
     p.backdrop-text
         //Text inside backdrop
         color: red
@@ -181,7 +193,6 @@ p.content
         display: inline-block
         clear: both
         float: left
-
     p.backdrop-text-2
         //Text inside backdrop, center.
         color: black
@@ -191,8 +202,6 @@ p.content
         margin-bottom: 200px
         clear: both
         display: inline-block
-
-
     .backdrop-text-2
         //Text inside backdrop, center.
         display: block
@@ -202,13 +211,8 @@ p.content
         margin-left: 255px
         margin-bottom: 200px
         clear: both
-
-
-
-
     strong
         text-decoration: underline
-
     input[type="text"]
         display: block
         width: 173px
@@ -220,35 +224,27 @@ p.content
         position: relative
         clear: both
         color: black
-
-
     .align-left
         // For <div> containing text to align
         text-align: left
-
     .align-right
         // For <div> containing text to align
         text-align: right
-
     .text-left
         // For <span> elements
         display: inline-block
         float: left
-
     .text-right
         // For <span> elements
         display: inline-block
         float: right
-
     .text-center
         // For <div> containing text to align
         text-align: center
-
     h1.invoice-text
         color: black
         font: 28px Arial
         margin-top: 20px
-
     #date
         box-sizing: content-box
         color: black
@@ -257,10 +253,8 @@ p.content
         display: inline-block
         margin-top: 20px
         padding: 3px
-
     #contacts
         top: 75px
-
     #bill-to, #payments-to
         box-sizing: border-box
         background-color: rgb(67,67,67)
@@ -272,13 +266,10 @@ p.content
             margin-top: 0
             margin-bottom: 5px
             font: bold 16px  Arial, sans-serif
-
     #bill-to
         margin-right: 10px
-
     #payments-to
         margin-left: 10px
-
     #invoice-terms
         box-sizing: border-box
         margin-top: 20px
@@ -287,7 +278,6 @@ p.content
         background-color: rgb(67,67,67)
         color: rgb(255, 255, 255)
         font:  15px  Arial, sans-serif
-
     #table-header
         box-sizing: border-box
         margin-top: 20px
@@ -296,15 +286,12 @@ p.content
         background-color: rgb(67,67,67)
         color: rgb(255, 255, 255)
         font:  15px  Arial, sans-serif
-
     #box-container
         position: relative
         height: 255px
-
     table
         margin-top: 20px
         width: 100%
-
     td
         width: 33%
         height: 14px
@@ -325,22 +312,17 @@ p.content
             border-bottom: 0
         &.left-spacer
             border-bottom: 0
-
     .credit-total-text, .credit-total-amount
         height: 23px
         // 8px for vertically aligning text
         padding-top: 8px
-
     #credit-text, #credit-amount
         border-top: solid 1px black
-
     .credit-total-text
         padding-left: 12px
         font: 11px Arial
-
     .credit-total-amount
         text-align: right
         padding-right: 12px
         font: 12px Arial
-
     */
