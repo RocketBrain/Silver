@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+	<p> </p>
+	
+
+
+	<div class="content-wrapper">
+	
+       
+
+
+
+
+		<div class="left-bar">
+			<p> ............ </p>
+
+			 {% placeholder "leftbar" %}
+			
+			
+			
+		</div>
+		<div class="content">
+		 <div id="logo-container"></div>
+			<div class="content-right">
+			 {% placeholder "content-right" %}
+			 <p>................</p>
+			</div>
+
+
+		</div>
+	</div>
+	
+<footer>
+  {% static_placeholder 'footer' %}
+</footer>
+{% endblock content %}
