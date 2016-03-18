@@ -18,22 +18,18 @@
 
         {% cms_toolbar %}
         <div class="container">
-
-
             <!-- NAVIGATION -->
             <div class="top-bar">
                 <!-- LEFT side -->
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li class="menu-text">Silver State Coffee Co.</li>
-
-                            
-                               
-                           
                     </ul>
                 </div>
-
-              
+                 <!-- LOGO Picture -->
+                <div id="logo-container">
+                    <img src="{% static 'styles/stylesheets/silver1.png' %}" alt="Silver State Coffee Co.">
+                </div>
 
                 <!-- RIGHT side -->
                 <div class="top-bar-right">
@@ -43,7 +39,7 @@
                     </ul>
                 </div>
             </div>
-           
+
             <!-- PAGE CONTENT -->
             {% block content %}{% endblock content %}
 
