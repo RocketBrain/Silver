@@ -1,0 +1,14 @@
+
+mysite/static/node_modules/*
+
+media/*
+
+*.pyc
+
+mysite/secret.py
+
+.DS_Store
+
+project.db
+
+mysite/static/styles/.sass-cache/*
