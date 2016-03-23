@@ -1,19 +1,95 @@
-
 {% extends "base.html" %}
 {% load cms_tags %}
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block body_class %}menu_page{% endblock %}
+
 {% block content %}
+    <div class="row">
+        <!-- Left sections. -->
+        <div class="medium-5 columns">
+            <div class="row">
+                <!-- Far left column -->
+                <section class="medium-5 small-6 columns border-right menu-items">
+                    <h4>COFFEE</h4>
+                    <ul class="inline">
+                        <li>$3</li>
+                        <li>$2.25</li>
+                        <li>$1.50</li>
+                    </ul>
 
-    <div class="content-wrapper">
-        <div class="menu-title"> MENU </div>
+                    <h4>LATTÉ</h4>
+                    <ul class="inline">
+                        <li>$4</li>
+                        <li>$3.25</li>
+                        <li>$2.50</li>
+                    </ul>
 
-        <div class="content">
-             {% placeholder "content" %}
+                    <h4>COFFEE</h4>
+                    <ul class="inline">
+                        <li>$3</li>
+                        <li>$2.25</li>
+                        <li>$1.50</li>
+                    </ul>
+
+                    <h4>LATTÉ</h4>
+                    <ul class="inline">
+                        <li>$4</li>
+                        <li>$3.25</li>
+                        <li>$2.50</li>
+                    </ul>
+                </section>
+
+                <!-- Second to left column -->
+                <section class="medium-7 small-6 columns border-right menu-items">
+                    <h4>COFFEE</h4>
+                    <ul class="inline">
+                        <li>$3</li>
+                        <li>$2.25</li>
+                        <li>$1.50</li>
+                    </ul>
+
+                    <h4>LATTÉ</h4>
+                    <ul class="inline">
+                        <li>$4</li>
+                        <li>$3.25</li>
+                        <li>$2.50</li>
+                    </ul>
+
+                    <h4>COFFEE</h4>
+                    <ul class="inline">
+                        <li>$3</li>
+                        <li>$2.25</li>
+                        <li>$1.50</li>
+                    </ul>
+
+                    <h4>LATTÉ</h4>
+                    <ul class="inline">
+                        <li>$4</li>
+                        <li>$3.25</li>
+                        <li>$2.50</li>
+                    </ul>
+                </section>
+            </div>
         </div>
+
+        <!-- Right section w/ MENU text-->
+        <div class="medium-7 columns">
+            <div class="row">
+                <section class="small-12 columns menu-title-container">
+                    <h1 class="menu-title hide-for-small-only"> MENU </h1>
+                </section>
+                
+                <section class="small-12 columns">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in egestas leo. Proin ullamcorper tortor odio, eget ultricies arcu ultrices vitae. Vestibulum quis fermentum ipsum. Etiam bibendum ligula erat, a placerat dolor commodo sit amet. Proin sed nunc orci. Nunc vulputate consequat enim in ultrices. Donec nisl nisi, viverra non placerat sed, gravida ut arcu. Nullam tincidunt pharetra libero. Sed tristique convallis ipsum quis iaculis. Aenean blandit lacinia ipsum. Nam id tempus nibh. Cras justo nisl, bibendum egestas egestas id, posuere vitae ex.
+                </section>
+            </div>
+        </div>
+
     </div>
 
-<footer>
-  {% static_placeholder 'footer' %}
-</footer>
+    <footer>
+        {% static_placeholder 'footer' %}
+    </footer>
 {% endblock content %}
