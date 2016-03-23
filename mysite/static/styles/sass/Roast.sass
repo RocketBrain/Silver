@@ -1,8 +1,8 @@
 @import "compass/css3"
 @import "compass/css3/font-face"
-@include font-face("Cabin", font-files("Cabin-Medium-TTF.ttf", "Cabin-Regular.otf"))
+//@include font-face("Cabin", font-files("Cabin-Medium-TTF.ttf", "Cabin-Regular.otf"))
 @import url("https://fonts.googleapis.com/css?family=Cabin")
-@include font-face("Blooming Grove", font-files("styles/fonts/bgrove.ttf", "styles/fonts/bgrove.otf"))
+//@include font-face("Blooming Grove", font-files("styles/fonts/bgrove.ttf", "styles/fonts/bgrove.otf"))
 
 // Nav Bar
 .top-bar
@@ -48,7 +48,7 @@
 // Content Area
 
 body
-    background-image: url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg)
+    background-image: url(menu1.png) //url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg)
     background-repeat: no-repeat
     background-size: 100% 100%
 
@@ -109,8 +109,12 @@ p.content
 
 // Menu
 
+.content-wrapper-menu
+    width: 70%
+    margin: 0 auto
+
 .menu-title
-    font-family: georgia
+    font-family: Georgia
     font-size: 70px
     margin: 0 auto
     text-align: center
@@ -119,17 +123,32 @@ p.content
     background-color: none
     position: relative
     top: 90px
-    border-bottom: solid 1px #ADAFB2
+    border-bottom: solid 1px #00427A
     box-sizing: border-box
-    border-radius: 10px
     padding: 0px
     line-height: 90%
 
+.left-item
+     
+    font-family: Georgia
+    color: #ADAFB2
+    font-size: 28px 
+    background: none
+    background-color: none   
+
 .menu-border-left
-    border-left: 1px solid #ADAFB2
+    border-left: 1px solid #00427A
     height: 745px
     position: relative
-    top: 90px
+    top: -60px
+
+.menu-border-left2
+    border-left: 1px solid #00427A
+    height: 800px
+    position: relative
+    top: -120px 
+    left: 0px  
+    clear: both 
 
 .menu-font
     color: white

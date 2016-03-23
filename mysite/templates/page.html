@@ -4,9 +4,33 @@
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 {% block content %}
     
-    <div class="content-wrapper">
+	<!-- VERY LEFT BORDER-->
+	<div class="left-item"> Coffee
+	$3.00</div>
+	<div class="menu-border-left2">
+   
+    <!--CONTENT WRAPPER-->
+    <div class="content-wrapper-menu">
+   		<p class="menu-title"> MENU </p>
+   		<div class="menu-border-left"></div>
 
-        <div class="left-bar">
+
+
+
+
+
+  
+<footer>
+  {% static_placeholder 'footer' %}
+</footer>
+{% endblock content %}
+
+
+
+
+
+
+<!--       <div class="left-bar">
              {% placeholder "leftbar" %}
         </div>
 
@@ -14,8 +38,4 @@
              {% placeholder "content" %}
         </div>
     </div>
-
-<footer>
-  {% static_placeholder 'footer' %}
-</footer>
-{% endblock content %}
+-->

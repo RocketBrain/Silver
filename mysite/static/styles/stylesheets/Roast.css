@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin");
-@font-face {
-  font-family: "Cabin";
-  src: url('/fonts/Cabin-Medium-TTF.ttf') format('truetype'), url('/fonts/Cabin-Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: "Blooming Grove";
-  src: url('/fonts/styles/fonts/bgrove.ttf') format('truetype'), url('/fonts/styles/fonts/bgrove.otf') format('opentype');
-}
 /* line 8, ../sass/Roast.sass */
 .top-bar {
   background-color: #1e1e1e;
@@ -62,7 +54,7 @@
 
 /* line 50, ../sass/Roast.sass */
 body {
-  background-image: url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg);
+  background-image: url(menu1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -133,8 +125,14 @@ p.content {
 }
 
 /* line 112, ../sass/Roast.sass */
+.content-wrapper-menu {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 116, ../sass/Roast.sass */
 .menu-title {
-  font-family: georgia;
+  font-family: Georgia;
   font-size: 70px;
   margin: 0 auto;
   text-align: center;
@@ -143,22 +141,40 @@ p.content {
   background-color: none;
   position: relative;
   top: 90px;
-  border-bottom: solid 1px #ADAFB2;
+  border-bottom: solid 1px #00427A;
   box-sizing: border-box;
-  border-radius: 10px;
   padding: 0px;
   line-height: 90%;
 }
 
-/* line 128, ../sass/Roast.sass */
-.menu-border-left {
-  border-left: 1px solid #ADAFB2;
-  height: 745px;
-  position: relative;
-  top: 90px;
+/* line 131, ../sass/Roast.sass */
+.left-item {
+  font-family: Georgia;
+  color: #ADAFB2;
+  font-size: 28px;
+  background: none;
+  background-color: none;
 }
 
-/* line 134, ../sass/Roast.sass */
+/* line 139, ../sass/Roast.sass */
+.menu-border-left {
+  border-left: 1px solid #00427A;
+  height: 745px;
+  position: relative;
+  top: -60px;
+}
+
+/* line 145, ../sass/Roast.sass */
+.menu-border-left2 {
+  border-left: 1px solid #00427A;
+  height: 800px;
+  position: relative;
+  top: -120px;
+  left: 0px;
+  clear: both;
+}
+
+/* line 153, ../sass/Roast.sass */
 .menu-font {
   color: white;
   font-size: 40px;
@@ -167,7 +183,7 @@ p.content {
   bottom: 590px;
 }
 
-/* line 141, ../sass/Roast.sass */
+/* line 160, ../sass/Roast.sass */
 .menu-left {
   width: 33%;
   float: left;
@@ -181,7 +197,7 @@ p.content {
   top: -690px;
 }
 
-/* line 153, ../sass/Roast.sass */
+/* line 172, ../sass/Roast.sass */
 .menu-center {
   width: 33%;
   float: right;
