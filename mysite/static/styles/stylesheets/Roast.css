@@ -7,46 +7,78 @@ section {
   padding: 1.5em !important;
   background-color: rgba(10, 10, 10, 0.8);
 }
-/* line 8, ../sass/_menu.sass */
+/* line 9, ../sass/_menu.sass */
 section.menu-items {
   text-align: center;
+  font-size: 1em;
+  color: #ADAFB2;
 }
-/* line 10, ../sass/_menu.sass */
+/* line 13, ../sass/_menu.sass */
 section.border-right {
   border-right: 1px solid #00427A;
 }
-/* line 12, ../sass/_menu.sass */
+/* line 15, ../sass/_menu.sass */
 section.menu-title-container {
   border-bottom: 1px solid #00427A;
 }
 @media only screen and (max-width: 40em) {
-  /* line 12, ../sass/_menu.sass */
+  /* line 15, ../sass/_menu.sass */
   section.menu-title-container {
     height: 0 !important;
     padding: 0 !important;
   }
 }
-/* line 17, ../sass/_menu.sass */
+/* line 20, ../sass/_menu.sass */
 section h1, section h2, section h3, section h4, section h5 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
   text-align: center;
   margin-bottom: 0.2em;
 }
+/* line 26, ../sass/_menu.sass */
+section h4 {
+  font-size: 30px;
+}
+/* line 28, ../sass/_menu.sass */
+section p {
+  text-align: left;
+  color: #ADAFB2;
+  font-style: italic;
+}
+/* line 32, ../sass/_menu.sass */
+section p:nth-child(even) {
+  font-style: normal;
+}
 
-/* line 24, ../sass/_menu.sass */
+/* line 37, ../sass/_menu.sass */
+.center-left {
+  position: relative;
+  margin-right: 500px;
+  margin-left: 150px;
+  font-size: 30px;
+  color: #ADAFB2;
+}
+
+/* line 48, ../sass/_menu.sass */
 .menu-title {
   margin: 0;
   line-height: 90%;
 }
 
-/* line 31, ../sass/_menu.sass */
+/* line 54, ../sass/_menu.sass */
+.row {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 63, ../sass/_menu.sass */
 .content-wrapper-menu {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 35, ../sass/_menu.sass */
+/* line 67, ../sass/_menu.sass */
 .left-item {
   font-family: Georgia;
   color: #ADAFB2;
@@ -55,7 +87,7 @@ section h1, section h2, section h3, section h4, section h5 {
   background-color: none;
 }
 
-/* line 42, ../sass/_menu.sass */
+/* line 74, ../sass/_menu.sass */
 .menu-border-left {
   border-left: 1px solid #00427A;
   height: 745px;
@@ -63,7 +95,7 @@ section h1, section h2, section h3, section h4, section h5 {
   top: -60px;
 }
 
-/* line 48, ../sass/_menu.sass */
+/* line 80, ../sass/_menu.sass */
 .menu-border-left2 {
   border-left: 1px solid #00427A;
   height: 800px;
@@ -73,16 +105,16 @@ section h1, section h2, section h3, section h4, section h5 {
   clear: both;
 }
 
-/* line 56, ../sass/_menu.sass */
+/* line 88, ../sass/_menu.sass */
 .menu-font {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   font-family: Cabin;
   position: relative;
   bottom: 590px;
 }
 
-/* line 63, ../sass/_menu.sass */
+/* line 95, ../sass/_menu.sass */
 .menu-left {
   width: 33%;
   float: left;
@@ -96,7 +128,7 @@ section h1, section h2, section h3, section h4, section h5 {
   top: -690px;
 }
 
-/* line 75, ../sass/_menu.sass */
+/* line 107, ../sass/_menu.sass */
 .menu-center {
   width: 33%;
   float: right;
@@ -125,6 +157,73 @@ ul.inline li {
   float: left;
   list-style: none;
   margin-left: 1.22222rem;
+  font-size: 20px;
+}
+
+/* line 16, ../sass/_inline.sass */
+ul.inline2 {
+  display: inline-block;
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 0.94444rem;
+  margin-left: -1.22222rem;
+  padding: 0;
+}
+/* line 23, ../sass/_inline.sass */
+ul.inline2 li {
+  display: block;
+  text-align: left;
+  list-style: none;
+  margin-left: 3.22222rem;
+  font-size: 29px;
+  color: #ADAFB2;
+}
+/* line 30, ../sass/_inline.sass */
+ul.inline2 li:nth-child(even) {
+  margin-left: 12.22222rem;
+}
+/* line 33, ../sass/_inline.sass */
+ul.inline2 h4 {
+  text-align: left;
+  margin-left: 185px;
+}
+
+/* line 39, ../sass/_inline.sass */
+ul.inline3 {
+  display: inline-block;
+  list-style: none;
+  margin-top: -380px;
+  margin-bottom: 2rem;
+  margin-right: 5.22222rem;
+  padding: 0;
+  float: right;
+  z-index: -1;
+}
+/* line 49, ../sass/_inline.sass */
+ul.inline3 li {
+  display: block;
+  text-align: left;
+  list-style: none;
+  margin-left: 12.22222rem;
+  font-size: 29px;
+  color: #ADAFB2;
+}
+/* line 56, ../sass/_inline.sass */
+ul.inline3 li:nth-child(even) {
+  margin-left: 300px;
+}
+/* line 61, ../sass/_inline.sass */
+ul.inline3 h4 {
+  text-align: center;
+  margin-left: 130px;
+}
+
+/* line 67, ../sass/_inline.sass */
+.small-12 p {
+  font-size: 20px;
+  font-style: normal;
+  position: relative;
+  bottom: 50px;
 }
 
 /* line 8, ../sass/Roast.sass */
