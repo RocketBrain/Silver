@@ -7,13 +7,22 @@
 
 {% block content %}
 
-    <div class="row">
+    <div class="row menu-wrapper">
+        <!-- Menu title -->
+        <div class="small-12 columns">
+            <div class="row menu-title-container">
+                <section class="medium-6 medium-offset-6 columns">
+                    <h1 class="menu-title hide-for-small-only">
+                        MENU
+                    </h1>
+                </section>
+            </div>
+        </div>
         <!-- Left sections. -->
-        <div class="medium-5 columns">
-            <div class="row">
+        <div class="medium-6 columns">
+            <div class="row" data-equalizer>
                 <!-- Far left column -->
-                <section class=
-                "large-5 small-6 columns border-right menu-items">
+                <section class="large-5 small-6 columns border-right menu-items" data-equalizer-watch>
                     <h4>COFFEE</h4>
                     <ul class="inline">
                         <li>$3</li>
@@ -45,8 +54,7 @@
                         <li>$1.50</li>
                     </ul>
                     <p>Teas:
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br>
                     Chai Spice, Chamomile, Earl Grey, English Breakfast, Honey
                     Lemon Ginseng, Jasmine Blossom, Licorice Spice, Peppermint,
                     Pomegranate Raspberry, Premium Green, Sweet Rose, and
@@ -58,8 +66,7 @@
                     Goodness Grapeness, and Super Fruit Punch. Tea: Grape
                     Bliss.</p>
                 </section><!-- Second to left column -->
-                <section class=
-                "medium-7 small-6 columns border-right menu-items">
+                <section class="medium-7 small-6 columns border-right menu-items" data-equalizer-watch>
                     <h4>MOCHA & FLAVORED LATTE</h4>
                     <ul class="inline">
                         <li>$5</li>
@@ -85,12 +92,12 @@
                         <li>$3.75</li>
                     </ul>
                     <h4>CAPPUCCINO</h4>
-                    <ul class="inline">
+                    <ul class="plain">
                         <li>Double-shot $3.25</li>
                         <li>Single Shot $2.50</li>
                     </ul>
                     <h4>MACHIATTO</h4>
-                    <ul class="inline">
+                    <ul class="plain">
                         <li>Double-shot $2.95</li>
                         <li>Single Shot $2.30</li>
                     </ul>
@@ -107,49 +114,60 @@
                 </section>
             </div>
         </div><!-- Right section w/ MENU text-->
-        <div class="medium-7 columns">
+        <div class="medium-6 columns">
             <div class="row">
-                <section class="small-12 columns menu-title-container">
-                    <h1 class="menu-title hide-for-small-only">MENU</h1>
-                </section>
-                <section class="small-12 columns">
-                    <ul class="inline2">
-                        <li style="list-style: none; display: inline">
-                            <h4>PANINI</h4>
-                        </li>
+                <section class="small-6 columns menu-items">
+                    <h4>PANINI</h4>
+                    <ul class="plain">
                         <li>$4</li>
-                        <li>Sourdough, White, or Wheat<br>
-                        BreadHam, Roast Beef, or Turkey<br>
-                        Cheddar, Colby Jack, Monterey Jack,<br>
-                        Pepper Jack, or Provolone Cheese<br>
-                        A bag of chips</li>
+                        <li class="align-left">
+                            <i class="fa fa-caret-right"></i>&nbsp;
+                            Sourdough, White, or Wheat Bread.
+                        </li>
+                        <li class="align-left">
+                            <i class="fa fa-caret-right"></i>&nbsp;
+                            Ham, Roast Beef, or Turkey.
+                        </li>
+                        <li class="align-left">
+                            <i class="fa fa-caret-right"></i>&nbsp;
+                            Cheddar, Colby Jack, Monterey Jack,
+                            Pepper Jack, or Provolone Cheese.
+                        </li>
+                        <li class="align-left">
+                            <i class="fa fa-caret-right"></i>&nbsp;
+                            A bag of chips.
+                        </li>
                     </ul>
                 </section>
-                <section class="small-12 columns">
-                    <ul class="inline3">
-                        <li style="list-style: none; display: inline">
-                            <h4>SALAD</h4>
-                        </li>
+                <section class="small-6 columns menu-items">
+                    <h4>SALAD</h4>
+                    <ul class="plain">
                         <li>$4.50</li>
                         <li>Chicken or Tuna Salad in a<br>
                         tomato on a bed of greens.</li>
                     </ul>
                 </section>
                 <section class="small-12 columns">
-                    <p>List of flavors:<br>
-                    Almond, Brown Sugar Cinnamon, Butter Pecan, Caramel,
-                    Cinnamon, Coconut, Frosted Mint, Hazelnut, Peppermint,
-                    Pumpkin Spice, Raspberry, Salted Caramel, Swiss Chocolate,
-                    Toasted Almond Mocha, Toasted Marshmallow, Vanilla, and
-                    White Chocolate.<br>
-                    <br>
-                    Sugar Free:<br>
-                    Caramel, Cinnamon, Chocolate, Irish Cream, Hazelnut,
-                    Peppermint, Pumpkin Spice, and White Chocolate.<br>
-                    <br>
-                    Extras:<br>
-                    Another pump of flavor...$0.50<br>
-                    Per-extra single shot of espresso....$0.80</p>
+                    <h3>List of flavors:</h3>
+                    <p>
+                        Almond, Brown Sugar Cinnamon, Butter Pecan, Caramel,
+                        Cinnamon, Coconut, Frosted Mint, Hazelnut, Peppermint,
+                        Pumpkin Spice, Raspberry, Salted Caramel, Swiss Chocolate,
+                        Toasted Almond Mocha, Toasted Marshmallow, Vanilla, and
+                        White Chocolate.
+                    </p>
+
+                    <h3>Sugar Free:</h3>
+                    <p>
+                        Caramel, Cinnamon, Chocolate, Irish Cream, Hazelnut,
+                        Peppermint, Pumpkin Spice, and White Chocolate.
+                    </p>
+
+                    <h3>Extras:</h3>
+                    <p>
+                        Another pump of flavor...$0.50<br>
+                        Per-extra single shot of espresso....$0.80
+                    </p>
                 </section>
             </div>
         </div>
