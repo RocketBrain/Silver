@@ -1,14 +1,15 @@
 @import "compass/css3"
 @import "compass/css3/font-face"
+@import "colors"
 @import "fonts"
 @import "menu"
 @import "lists"
-@import "_home"
-@import "webicons.css"
-@import "webicons"
-@import url(cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css)
+@import "home"
+@import "utils"
 
-
+// Override webicon hover
+.webicon:hover
+    margin: 0 0 5px !important
 
 // Nav Bar
 .top-bar
@@ -78,4 +79,3 @@ body
     background-image: url(coffee-wallpaper-gradient.jpg) // url(http://cdn.paper4pc.com/images/coffee-wallpaper-6.jpg) // url(menu1.png)
     background-repeat: no-repeat
     background-size: cover
-
