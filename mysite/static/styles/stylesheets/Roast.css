@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700);
+@import url(webicons.css);
+@import url(cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css);
 /* line 2, ../sass/_menu.sass */
 .menu-wrapper {
   background-color: rgba(10, 10, 10, 0.8);
@@ -181,132 +183,116 @@ li.align-left {
   text-align: left;
 }
 
-/* line 8, ../sass/Roast.sass */
-.top-bar {
-  background-color: #1e1e1e;
-  height: 64px;
-}
-/* line 11, ../sass/Roast.sass */
-.top-bar ul {
-  background-color: #1e1e1e;
-  color: white;
-}
-/* line 14, ../sass/Roast.sass */
-.top-bar ul a:hover {
-  color: #00427a;
-}
-/* line 16, ../sass/Roast.sass */
-.top-bar a {
-  color: white;
-  font-family: Oswald, Georgia, Sans Serif;
-  font-size: 1.65em;
-}
-@media screen and (max-width: 640px) {
-  /* line 16, ../sass/Roast.sass */
-  .top-bar a {
-    font-size: 1em;
-  }
+/* line 2, ../sass/_home.sass */
+a {
+  position: relative;
+  top: 0rem;
 }
 
-/* line 23, ../sass/Roast.sass */
-.top-bar-right {
-  float: right;
+/* line 7, ../sass/_home.sass */
+.facebook {
+  background: url("facebook.png") 0 0;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: none;
 }
 
-/* line 27, ../sass/Roast.sass */
-.top-bar-left li {
-  margin-left: 0px;
-  float: left;
-}
-
-/* line 32, ../sass/Roast.sass */
-.title-bar {
-  background-color: #1e1e1e;
-}
-/* line 34, ../sass/Roast.sass */
-.title-bar ul {
-  background-color: #1e1e1e;
-  color: white;
-}
-/* line 37, ../sass/Roast.sass */
-.title-bar ul a:hover {
-  color: #00427a;
-}
-/* line 39, ../sass/Roast.sass */
-.title-bar a {
-  color: white;
-  font-family: Oswald, Georgia, Sans Serif;
-  font-size: 1em;
-}
-
-/* line 45, ../sass/Roast.sass */
-.menu-text {
-  font-family: Oswald, Georgia, Sans Serif;
-  text-transform: uppercase;
-  font-size: 1.65em;
-}
-@media screen and (max-width: 640px) {
-  /* line 45, ../sass/Roast.sass */
-  .menu-text {
-    font-size: 1em;
-  }
-}
-
-/* line 53, ../sass/Roast.sass */
-#logo-container {
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  margin-left: -75px;
-  height: 150px;
-  width: 150px;
-  background-color: #1e1e1e;
-  padding: 1px;
-}
-@media screen and (max-width: 640px) {
-  /* line 53, ../sass/Roast.sass */
-  #logo-container {
-    top: -5px;
-    width: 120px;
-    height: 120px;
-    margin-left: -60px;
-  }
-}
-
-/* line 70, ../sass/Roast.sass */
-body {
-  background-color: #000000;
-  background-image: url(coffee-wallpaper-gradient.jpg);
+/* line 18, ../sass/_home.sass */
+.mail {
+  background: url("mail.png");
+  width: 48px;
+  height: 48px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 76, ../sass/Roast.sass */
+/* line 28, ../sass/_home.sass */
 .content-wrapper {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
-/* line 81, ../sass/Roast.sass */
+/* line 33, ../sass/_home.sass */
 .content {
-  width: 69.999%;
+  width: 50%;
+  height: 40rem;
   float: right;
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0px;
-  background: rgba(87, 70, 90, 0);
-  font-family: Cabin;
-  font-size: 16px;
+  background: black;
+  opacity: 0.4;
+  position: relative;
+  top: 5rem;
+  left: 7rem;
 }
 
-/* line 91, ../sass/Roast.sass */
-p.content {
+/* line 47, ../sass/_home.sass */
+.inside-content {
+  width: 50%;
   font-family: Cabin;
-  color: red;
-  font-size: 20px;
+  font-size: 1em;
+  color: #ADAFB2;
+  position: relative;
+  left: 45rem;
+  top: 8rem;
+}
+/* line 56, ../sass/_home.sass */
+.inside-content h2 {
+  position: relative;
+  right: 13rem;
+  top: 1rem;
+  font-family: Oswald;
+}
+/* line 62, ../sass/_home.sass */
+.inside-content p {
+  position: relative;
+  right: 12rem;
+  top: 1rem;
+  font-family: Cabin;
+}
+/* line 67, ../sass/_home.sass */
+.inside-content h3 {
+  position: relative;
+  left: 5.6rem;
+  font-family: Oswald;
+}
+/* line 72, ../sass/_home.sass */
+.inside-content h4 {
+  position: relative;
+  left: 15rem;
+  font-family: Oswald;
+  font-size: 2em;
+  bottom: 1rem;
+}
+/* line 78, ../sass/_home.sass */
+.inside-content h5 {
+  position: relative;
+  left: 15rem;
+  bottom: 1rem;
+}
+/* line 82, ../sass/_home.sass */
+.inside-content h6 {
+  position: relative;
+  left: 6rem;
+  font-family: Oswald;
+  font-size: 2em;
+}
+/* line 88, ../sass/_home.sass */
+.inside-content p:nth-child(odd) {
+  position: relative;
+  left: 6rem;
+  font-family: Oswald;
+  bottom: 1.5rem;
+  font-size: 1.7em;
 }
 
-/* line 96, ../sass/Roast.sass */
+/* line 106, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -318,30 +304,217 @@ p.content {
   position: relative;
   left: 150px;
 }
-/* line 107, ../sass/Roast.sass */
+/* line 117, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 112, ../sass/Roast.sass */
+/* line 122, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 115, ../sass/Roast.sass */
+/* line 127, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
   padding: 20px;
   box-sizing: border-box;
-  background-color: rgba(10, 10, 10, 0.5);
+  background-color: rgba(10, 10, 10, 0);
   height: 100px;
   width: 300px;
 }
-/* line 123, ../sass/Roast.sass */
+/* line 135, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
   font-size: 20px;
+}
+
+/* Webicons by Adam Fairhead: http://adamfairhead.com */
+/* line 3, ../sass/webicons.sass */
+.svg .fc-webicon.facebook {
+  background: url("static/styles/images/fairhead-icons/fc-webicon-facebook.svg");
+}
+
+/* line 8, ../sass/webicons.sass */
+.webicon {
+  display: inline-block;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  text-indent: -999em;
+  text-align: left;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 23, ../sass/webicons.sass */
+.webicon:hover {
+  margin: -1px 0 1px;
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 29, ../sass/webicons.sass */
+.webicon.small {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 36, ../sass/webicons.sass */
+.webicon.large {
+  width: 48px;
+  height: 48px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* restore webicons accessibility for print */
+@media print {
+  *background: transparent !important;
+  color: #000 !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+/* line 52, ../sass/webicons.sass */
+.webicontext-indent {
+  width: auto !important;
+  height: auto !important;
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* line 70, ../sass/webicons.sass */
+.no-svg .webicon.f500px {
+  background: url("webicons/webicon-f500px-m.png");
+}
+
+/* line 72, ../sass/webicons.sass */
+.no-svg .webicon.f500px.large {
+  background: url("webicons/webicon-f500px.png");
+}
+
+/* line 74, ../sass/webicons.sass */
+.no-svg .webicon.f500px.small {
+  background: url("webicons/webicon-f500px-s.png");
+}
+
+/* line 76, ../sass/webicons.sass */
+.svg .webicon.f500px {
+  background: url("webicons/webicon-f500px.svg");
+}
+
+/* line 14, ../sass/Roast.sass */
+.top-bar {
+  background-color: #1e1e1e;
+  height: 64px;
+}
+/* line 17, ../sass/Roast.sass */
+.top-bar ul {
+  background-color: #1e1e1e;
+  color: white;
+}
+/* line 20, ../sass/Roast.sass */
+.top-bar ul a:hover {
+  color: #00427a;
+}
+/* line 22, ../sass/Roast.sass */
+.top-bar a {
+  color: white;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1.65em;
+}
+@media screen and (max-width: 640px) {
+  /* line 22, ../sass/Roast.sass */
+  .top-bar a {
+    font-size: 1em;
+  }
+}
+
+/* line 29, ../sass/Roast.sass */
+.top-bar-right {
+  float: right;
+}
+
+/* line 33, ../sass/Roast.sass */
+.top-bar-left li {
+  margin-left: 0px;
+  float: left;
+}
+
+/* line 38, ../sass/Roast.sass */
+.title-bar {
+  background-color: #1e1e1e;
+}
+/* line 40, ../sass/Roast.sass */
+.title-bar ul {
+  background-color: #1e1e1e;
+  color: white;
+}
+/* line 43, ../sass/Roast.sass */
+.title-bar ul a:hover {
+  color: #00427a;
+}
+/* line 45, ../sass/Roast.sass */
+.title-bar a {
+  color: white;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1em;
+}
+
+/* line 51, ../sass/Roast.sass */
+.menu-text {
+  font-family: Oswald, Georgia, Sans Serif;
+  text-transform: uppercase;
+  font-size: 1.65em;
+}
+@media screen and (max-width: 640px) {
+  /* line 51, ../sass/Roast.sass */
+  .menu-text {
+    font-size: 1em;
+  }
+}
+
+/* line 59, ../sass/Roast.sass */
+#logo-container {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  margin-left: -75px;
+  height: 150px;
+  width: 150px;
+  background-color: #1e1e1e;
+  padding: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 59, ../sass/Roast.sass */
+  #logo-container {
+    top: -5px;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+  }
+}
+
+/* line 76, ../sass/Roast.sass */
+body {
+  background-color: #000000;
+  background-image: url(coffee-wallpaper-gradient.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
