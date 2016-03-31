@@ -6,7 +6,6 @@
 {% block content %}
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/static/styles/stylesheets/webicons.css" />
 <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
 
 
@@ -21,20 +20,20 @@ div id="Social" class="show-for-medium">
         <img src="static/styles/stylesheets/facebook.png'" alt="FaceBook Icon">
     </a>
 <!-->
-    
+
 
 
 
 <!--FACEBOOK ICON!-->
-<a href="https://www.facebook.com/SilverStateCoffeeCo/"> 
-    <div class="facebook">
+<a href="https://www.facebook.com/SilverStateCoffeeCo/">
+    <div class="webicon facebook">
     </div>
-</a> 
+</a>
 
 <a href="#">
-    <div class ="mail">
+    <div class="webicon mail">
     </div>
-</a>   
+</a>
 
 
 
@@ -43,25 +42,30 @@ div id="Social" class="show-for-medium">
     <div class="content-wrapper">
 
         <div class="left-bar">
-            
-                {% placeholder "leftbar" %}
-        </div>
-        <div class="content">
-            {% placeholder "content" %}
+            {% placeholder "leftbar" %}
         </div>
 
-         <div class="inside-content">  
-              <h2>ADDRESS</h2>
-              <p>4001 S. VIRGINIA STREET,RENO,NV 89502</p>
-              <br>
-              <h3> HOURS OF OPERATION </h3> <br>
-              <h4> M-F</h4>
-              <h5> 7.00am - 4.30pm</h5>
-              <h4>SAT</h4>
-              <h5>8.00am-3.00pm</h5>
-              <h6>PHONE</h6>
-              <p>(775) 800-1001</p>
-
+        <div class="row">
+            <div class="medium-offset-6 large-offset-7 medium-6 large-5 columns">
+                <div class="content hours-operation">
+                    {% placeholder "content" %}
+                    <h2>ADDRESS</h2>
+                    <p class="address">4001 S. VIRGINIA ST, RENO, NV 89502</p>
+                    <h2> HOURS OF OPERATION </h2>
+                    <div class="align-center">
+                        <h2>M-F</h2>
+                        <h4> 7.00am - 4.30pm</h4>
+                        <h2>SAT</h2>
+                        <h4>8.00am-3.00pm</h4>
+                    </div>
+                    <h2>PHONE</h2>
+                    <p class="phone_number">
+                        <a href="tel:17758001001">
+                            (775) 800-1001
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
 
     </div>
