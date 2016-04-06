@@ -6,17 +6,26 @@
 {% block body_class %}menu_page{% endblock %}
 
 {% block content %}
-    <div class="row">
-        <!-- Plain content page -->
-        <div class="medium-4 columns">
-             {% placeholder "leftbar" %}
-        </div>
 
-        <div class="medium-8 columns">
-             {% placeholder "content" %}
-        </div>
+    <div class="gallery_positon">
+        <ul class="small-block-grid-3">
+            <li class="gallery_border" style="inline-block"><img src=
+            "http://www.w3schools.com/html/html5.gif"> </li>
+            <li class="gallery_border"><img src=
+            "https://cdn3.vox-cdn.com/thumbor/OC6_jKCgy44vY7b6ybRqJKkvbuQ=/0x50:533x350/350x197/cdn0.vox-cdn.com/uploads/chorus_image/image/45515146/intellisilver.0.0.jpg"></li>
+            <li class="gallery_border"><img src=
+            "http://www.everwell.com/img/red_coffee_mug.jpg"></li>
+            <li class="gallery_border"></li>
+            <li class="gallery_border"></li>
+        </ul>
+        <ul class="small-block-grid-3">
+            <li class="gallery_border" style="inline-block"></li>
+            <li class="gallery_border" style="inline-block"></li>
+            <li class="gallery_border" style="inline-block"></li>
+            <li class="gallery_border" style="inline-block"></li>
+            <li class="gallery_border" style="inline-block"></li>
+        </ul>
     </div>
-
     <footer>
         {% static_placeholder 'footer' %}
     </footer>

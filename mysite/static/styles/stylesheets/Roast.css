@@ -248,7 +248,7 @@ li.align-left {
   top: 2rem;
   bottom: -7rem;
   left: 7rem;
-  margin-top: 150px;
+  margin-top: 6.25em;
   margin-left: -111px;
 }
 
@@ -350,83 +350,108 @@ li.align-left {
   text-align: right;
 }
 
-/* line 11, ../sass/Roast.sass */
+/* line 1, ../sass/_gallery.sass */
+.gallery_border {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  box-sizing: border-box;
+  color: #222222;
+  display: inline-block;
+  height: 100px;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 100px;
+  perspective-origin: 50px 50px;
+  transform-origin: 50px 50px;
+  border: 4px solid #ADAFB2;
+  outline: #222222 none 0px;
+  transition: all 0.2s ease-out 0s;
+}
+
+/* line 17, ../sass/_gallery.sass */
+.gallery_positon {
+  display: block;
+  position: relative;
+  left: 40%;
+  top: 8em;
+}
+
+/* line 12, ../sass/Roast.sass */
 .webicon:hover {
   margin: 0 0 5px !important;
 }
 
-/* line 15, ../sass/Roast.sass */
+/* line 16, ../sass/Roast.sass */
 .top-bar {
   background-color: #1e1e1e;
   height: 64px;
 }
-/* line 18, ../sass/Roast.sass */
+/* line 19, ../sass/Roast.sass */
 .top-bar ul {
   background-color: #1e1e1e;
   color: white;
 }
-/* line 21, ../sass/Roast.sass */
+/* line 22, ../sass/Roast.sass */
 .top-bar ul a:hover {
   color: #00427a;
 }
-/* line 23, ../sass/Roast.sass */
+/* line 24, ../sass/Roast.sass */
 .top-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1.65em;
 }
 @media screen and (max-width: 640px) {
-  /* line 23, ../sass/Roast.sass */
+  /* line 24, ../sass/Roast.sass */
   .top-bar a {
     font-size: 1em;
   }
 }
 
-/* line 30, ../sass/Roast.sass */
+/* line 31, ../sass/Roast.sass */
 .top-bar-right {
   float: right;
 }
 
-/* line 34, ../sass/Roast.sass */
+/* line 35, ../sass/Roast.sass */
 .top-bar-left li {
   margin-left: 0px;
   float: left;
 }
 
-/* line 39, ../sass/Roast.sass */
+/* line 42, ../sass/Roast.sass */
 .title-bar {
   background-color: #1e1e1e;
 }
-/* line 41, ../sass/Roast.sass */
+/* line 44, ../sass/Roast.sass */
 .title-bar ul {
   background-color: #1e1e1e;
   color: white;
 }
-/* line 44, ../sass/Roast.sass */
+/* line 47, ../sass/Roast.sass */
 .title-bar ul a:hover {
   color: #00427a;
 }
-/* line 46, ../sass/Roast.sass */
+/* line 49, ../sass/Roast.sass */
 .title-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1em;
 }
 
-/* line 52, ../sass/Roast.sass */
+/* line 55, ../sass/Roast.sass */
 .menu-text {
   font-family: Oswald, Georgia, Sans Serif;
   text-transform: uppercase;
   font-size: 1.65em;
 }
 @media screen and (max-width: 640px) {
-  /* line 52, ../sass/Roast.sass */
+  /* line 55, ../sass/Roast.sass */
   .menu-text {
     font-size: 1em;
   }
 }
 
-/* line 60, ../sass/Roast.sass */
+/* line 63, ../sass/Roast.sass */
 #logo-container {
   position: absolute;
   top: -15px;
@@ -438,7 +463,7 @@ li.align-left {
   padding: 1px;
 }
 @media screen and (max-width: 640px) {
-  /* line 60, ../sass/Roast.sass */
+  /* line 63, ../sass/Roast.sass */
   #logo-container {
     top: -5px;
     width: 120px;
@@ -447,10 +472,18 @@ li.align-left {
   }
 }
 
-/* line 77, ../sass/Roast.sass */
+/* line 80, ../sass/Roast.sass */
 body {
   background-color: #000000;
   background-image: url(coffee-wallpaper-gradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* line 88, ../sass/Roast.sass */
+.image1 {
+  background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/wsvwU-fM_1KoVtElBe2Vew/ls.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
 }
