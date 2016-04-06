@@ -4,84 +4,85 @@
   background-color: rgba(10, 10, 10, 0.8);
 }
 
-/* line 5, ../sass/_menu.sass */
+/* line 6, ../sass/_menu.sass */
 .menu-title-container {
   border-bottom: 1px solid #00427A;
 }
 @media only screen and (max-width: 40em) {
-  /* line 5, ../sass/_menu.sass */
+  /* line 6, ../sass/_menu.sass */
   .menu-title-container {
     height: 0 !important;
     padding: 0 !important;
   }
 }
 
-/* line 11, ../sass/_menu.sass */
+/* line 13, ../sass/_menu.sass */
 .menu-title {
   margin: 0;
   line-height: 90%;
 }
 
-/* line 15, ../sass/_menu.sass */
+/* line 17, ../sass/_menu.sass */
 section {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #FFFFFF;
   width: 100%;
   padding: 1.5em !important;
 }
-/* line 20, ../sass/_menu.sass */
+/* line 22, ../sass/_menu.sass */
 section.menu-items {
   text-align: center;
   color: #ADAFB2;
 }
-/* line 23, ../sass/_menu.sass */
+/* line 25, ../sass/_menu.sass */
 section.menu-items li {
   font-size: 1.1rem;
 }
-/* line 25, ../sass/_menu.sass */
+/* line 27, ../sass/_menu.sass */
 section.border-right {
   border-right: 1px solid #00427A;
 }
-/* line 27, ../sass/_menu.sass */
+/* line 29, ../sass/_menu.sass */
 section h1, section h2, section h3, section h4, section h5 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
   text-align: center;
   margin-bottom: 0.2em;
 }
-/* line 32, ../sass/_menu.sass */
+/* line 34, ../sass/_menu.sass */
 section h4 {
   font-size: 1.3rem;
 }
-/* line 34, ../sass/_menu.sass */
+/* line 36, ../sass/_menu.sass */
 section h3 {
   font-size: 1.4rem;
   text-align: left;
 }
-/* line 37, ../sass/_menu.sass */
+/* line 39, ../sass/_menu.sass */
 section p {
   text-align: left;
   color: #ADAFB2;
   font-style: italic;
 }
-/* line 41, ../sass/_menu.sass */
+/* line 43, ../sass/_menu.sass */
 section p:nth-child(even) {
   font-style: normal;
 }
 
-/* line 50, ../sass/_menu.sass */
+/* line 52, ../sass/_menu.sass */
 .small-12 p {
   font-size: 1.4rem;
   font-style: normal;
 }
 
-/* line 64, ../sass/_menu.sass */
+/* */
+/* line 68, ../sass/_menu.sass */
 .content-wrapper-menu {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 68, ../sass/_menu.sass */
+/* line 72, ../sass/_menu.sass */
 .left-item {
   font-family: Georgia;
   color: #ADAFB2;
@@ -90,7 +91,7 @@ section p:nth-child(even) {
   background-color: none;
 }
 
-/* line 75, ../sass/_menu.sass */
+/* line 79, ../sass/_menu.sass */
 .menu-border-left {
   border-left: 1px solid #00427A;
   height: 745px;
@@ -98,7 +99,7 @@ section p:nth-child(even) {
   top: -60px;
 }
 
-/* line 81, ../sass/_menu.sass */
+/* line 85, ../sass/_menu.sass */
 .menu-border-left2 {
   border-left: 1px solid #00427A;
   height: 800px;
@@ -108,7 +109,7 @@ section p:nth-child(even) {
   clear: both;
 }
 
-/* line 89, ../sass/_menu.sass */
+/* line 93, ../sass/_menu.sass */
 .menu-font {
   color: white;
   font-size: 50px;
@@ -117,7 +118,7 @@ section p:nth-child(even) {
   bottom: 590px;
 }
 
-/* line 96, ../sass/_menu.sass */
+/* line 100, ../sass/_menu.sass */
 .menu-left {
   width: 33%;
   float: left;
@@ -131,7 +132,7 @@ section p:nth-child(even) {
   top: -690px;
 }
 
-/* line 108, ../sass/_menu.sass */
+/* line 112, ../sass/_menu.sass */
 .menu-center {
   width: 33%;
   float: right;
@@ -145,6 +146,7 @@ section p:nth-child(even) {
   top: -690px;
 }
 
+/* */
 /* line 2, ../sass/_lists.sass */
 ul.inline {
   display: inline-block;
@@ -360,19 +362,23 @@ li.align-left {
   max-width: 100%;
   vertical-align: middle;
   width: 100px;
-  perspective-origin: 50px 50px;
-  transform-origin: 50px 50px;
-  border: 4px solid #ADAFB2;
-  outline: #222222 none 0px;
-  transition: all 0.2s ease-out 0s;
+  border: 2px solid #ADAFB2;
+  object-fit: fill;
+  perspective: 50px;
 }
 
 /* line 17, ../sass/_gallery.sass */
 .gallery_positon {
   display: block;
   position: relative;
-  left: 40%;
+  left: 35%;
   top: 8em;
+}
+
+/* line 23, ../sass/_gallery.sass */
+img {
+  min-height: 100%;
+  width: auto;
 }
 
 /* line 12, ../sass/Roast.sass */
