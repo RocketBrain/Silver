@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
+
+
+
+<!-- This does not work.
+<img src="static/styles/stylesheets/facebook.png'" alt="FaceBook Icon">
+
+And what is show-for-medium?
+
+div id="Social" class="show-for-medium">
+    <a href="/">
+        <img src="static/styles/stylesheets/facebook.png'" alt="FaceBook Icon">
+    </a>
+<!-->
+
+
+
+
+
+
+
+
+
+    <div class="content-wrapper">
+    <!--FACEBOOK ICON!-->
+<div class="social-icons">
+    <a href="https://www.facebook.com/SilverStateCoffeeCo/">
+        <div class="webicon facebook">
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="webicon mail">
+        </div>
+    </a>
+
+</div>
+
+
+        <div class="left-bar">
+            {% placeholder "leftbar" %}
+        </div>
+
+
+        
+        <div class="row">
+            <div class="medium-offset-1 small-4 columns content hours-operation" data-equalizer-watch>
+               
+                    {% placeholder "content" %}
+                    <h2>SPECIALS:</h2>
+                    <p class="address">"Eggs with tomatoes and chilli"</p><br>
+                    <p class="address"> "Quiche with with butter pecan"</p><br>
+                    <p class="address">"Tortilla wrapped with cheddar cheese and spinach"</p>
+
+
+                   
+                </div>
+            </div>
+        </div>
+
+    <div class="row">
+     <div class="small-2 columns content2 hours-operation2" data-equalizer-watch>  
+         
+                    {% placeholder "content" %}
+                    <h2>ADDRESS</h2>
+                    <p class="address">4001 S. VIRGINIA ST, RENO, NV 89502</p>
+                    <h2> HOURS OF OPERATION </h2>
+                    <div class="align-center">
+                        <h2>M-F</h2>
+                        <h4> 7.00am - 4.30pm</h4>
+                        <h2>SAT</h2>
+                        <h4>8.00am-3.00pm</h4>
+                    </div>
+                    <h2>PHONE</h2>
+                    <p class="phone_number">
+                        <a href="tel:17758001001">
+                            (775) 800-1001
+                        </a>
+                    </p>
+                    </div>
+             </div>
+     </div>        
+    </div> 
+             
+
+   
+
+<footer>
+  {% static_placeholder 'footer' %}
+</footer>
+{% endblock content %}

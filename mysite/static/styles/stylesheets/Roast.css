@@ -1,454 +1,70 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700);
-/* line 2, ../sass/_menu.sass */
-.menu-wrapper {
-  background-color: rgba(10, 10, 10, 0.8);
-}
+/*
+Error: Invalid mixin "======".
+        on line 87 of C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/_home.sass
+        from line 7 of C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/Roast.sass
 
-/* line 5, ../sass/_menu.sass */
-.menu-title-container {
-  border-bottom: 1px solid #00427A;
-}
-@media only screen and (max-width: 40em) {
-  /* line 5, ../sass/_menu.sass */
-  .menu-title-container {
-    height: 0 !important;
-    padding: 0 !important;
-  }
-}
+82: .social-icons
+83:    
+84:     position: relative
+85: <<<<<<< HEAD
+86:     left: 50%
+87: =======
+88:     left: 5%
+89: >>>>>>> master
+90:      
+91: 
+92: 
 
-/* line 11, ../sass/_menu.sass */
-.menu-title {
-  margin: 0;
-  line-height: 90%;
-}
-
-/* line 15, ../sass/_menu.sass */
-section {
-  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #FFFFFF;
-  width: 100%;
-  padding: 1.5em !important;
-}
-/* line 20, ../sass/_menu.sass */
-section.menu-items {
-  text-align: center;
-  color: #ADAFB2;
-}
-/* line 23, ../sass/_menu.sass */
-section.menu-items li {
-  font-size: 1.1rem;
-}
-/* line 25, ../sass/_menu.sass */
-section.border-right {
-  border-right: 1px solid #00427A;
-}
-/* line 27, ../sass/_menu.sass */
-section h1, section h2, section h3, section h4, section h5 {
-  font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
-  text-align: center;
-  margin-bottom: 0.2em;
-}
-/* line 32, ../sass/_menu.sass */
-section h4 {
-  font-size: 1.3rem;
-}
-/* line 34, ../sass/_menu.sass */
-section h3 {
-  font-size: 1.4rem;
-  text-align: left;
-}
-/* line 37, ../sass/_menu.sass */
-section p {
-  text-align: left;
-  color: #ADAFB2;
-  font-style: italic;
-}
-/* line 41, ../sass/_menu.sass */
-section p:nth-child(even) {
-  font-style: normal;
-}
-
-/* line 50, ../sass/_menu.sass */
-.small-12 p {
-  font-size: 1.4rem;
-  font-style: normal;
-}
-
-/* line 64, ../sass/_menu.sass */
-.content-wrapper-menu {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/* line 68, ../sass/_menu.sass */
-.left-item {
-  font-family: Georgia;
-  color: #ADAFB2;
-  font-size: 28px;
-  background: none;
-  background-color: none;
-}
-
-/* line 75, ../sass/_menu.sass */
-.menu-border-left {
-  border-left: 1px solid #00427A;
-  height: 745px;
-  position: relative;
-  top: -60px;
-}
-
-/* line 81, ../sass/_menu.sass */
-.menu-border-left2 {
-  border-left: 1px solid #00427A;
-  height: 800px;
-  position: relative;
-  top: -120px;
-  left: 0px;
-  clear: both;
-}
-
-/* line 89, ../sass/_menu.sass */
-.menu-font {
-  color: white;
-  font-size: 50px;
-  font-family: Cabin;
-  position: relative;
-  bottom: 590px;
-}
-
-/* line 96, ../sass/_menu.sass */
-.menu-left {
-  width: 33%;
-  float: left;
-  padding: 10px;
-  font-family: Cabin;
-  font-size: 56px;
-  color: white;
-  background: none;
-  background-color: none;
-  position: relative;
-  top: -690px;
-}
-
-/* line 108, ../sass/_menu.sass */
-.menu-center {
-  width: 33%;
-  float: right;
-  padding: 10px;
-  font-family: Cabin;
-  font-size: 56px;
-  color: white;
-  background: none;
-  background-color: none;
-  position: relative;
-  top: -690px;
-}
-
-/* line 2, ../sass/_lists.sass */
-ul.inline {
-  display: inline-block;
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0.94444rem;
-  margin-left: -1rem;
-  padding: 0;
-}
-/* line 9, ../sass/_lists.sass */
-ul.inline li {
-  display: block;
-  float: left;
-  list-style: none;
-  margin-left: 1rem;
-}
-
-/* line 15, ../sass/_lists.sass */
-ul.plain {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0.94444rem;
-  margin-left: -1rem;
-  padding: 0;
-}
-/* line 21, ../sass/_lists.sass */
-ul.plain li {
-  list-style: none;
-  margin-left: 1rem;
-}
-
-/* line 25, ../sass/_lists.sass */
-li.align-left {
-  text-align: left;
-}
-
-/* line 1, ../sass/_home.sass */
-.content-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* line 6, ../sass/_home.sass */
-.food_content {
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 48rem;
-  width: 50%;
-  position: relative;
-  top: 2rem;
-  bottom: 8rem;
-  left: 56rem;
-  margin-top: 17%;
-  margin-right: 0px;
-}
-
-/* line 20, ../sass/_home.sass */
-.specials {
-  font-family: Cabin;
-  font-size: 1em;
-  color: white;
-  top: -5rem;
-  right: 10rem;
-}
-/* line 26, ../sass/_home.sass */
-.specials p.food_font, .specials p.food_font2 {
-  position: relative;
-  left: 1.5rem;
-  font-size: 1.7rem;
-  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #ADAFB2;
-}
-/* line 32, ../sass/_home.sass */
-.specials a {
-  color: #ADAFB2;
-}
-/* line 34, ../sass/_home.sass */
-.specials a:hover {
-  color: #00427A;
-}
-/* line 36, ../sass/_home.sass */
-.specials h2 {
-  font-size: 3em;
-  font-family: Oswald, Georgia, Sans Serif;
-}
-/* line 39, ../sass/_home.sass */
-.specials h4 {
-  font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
-}
-
-/* line 44, ../sass/_home.sass */
-.address_content {
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: transparent;
-  height: 48rem;
-  width: 28%;
-  position: absolute;
-  top: 2rem;
-  bottom: -7rem;
-  left: 7rem;
-  margin-top: 150px;
-  margin-left: -111px;
-}
-
-/* line 57, ../sass/_home.sass */
-.hours-operation {
-  font-family: Cabin;
-  font-size: 1em;
-  color: white;
-  top: 5rem;
-  right: -10rem;
-}
-/* line 63, ../sass/_home.sass */
-.hours-operation p.address, .hours-operation p.phone_number {
-  position: relative;
-  left: 1.5rem;
-  font-size: 1.5rem;
-  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #ADAFB2;
-}
-/* line 69, ../sass/_home.sass */
-.hours-operation a {
-  color: #ADAFB2;
-}
-/* line 71, ../sass/_home.sass */
-.hours-operation a:hover {
-  color: #00427A;
-}
-/* line 73, ../sass/_home.sass */
-.hours-operation h2 {
-  font-size: 3em;
-  font-family: Oswald, Georgia, Sans Serif;
-}
-/* line 76, ../sass/_home.sass */
-.hours-operation h4 {
-  font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
-}
-
-/* line 82, ../sass/_home.sass */
-.social-icons {
-  position: relative;
-  left: 50%;
-}
-
-/* line 99, ../sass/_home.sass */
-.content-right {
-  width: 100%;
-  float: right;
-  box-sizing: border-box;
-  padding: 20px;
-  background-color: rgba(10, 10, 10, 0.5);
-  height: 100px;
-  width: 500px;
-  position: relative;
-  left: 150px;
-}
-/* line 110, ../sass/_home.sass */
-.content-right p {
-  font-family: Blooming Grove;
-  color: white;
-  font-size: 30px;
-}
-/* line 115, ../sass/_home.sass */
-.content-right p:nth-child(3) {
-  font-size: 12px;
-}
-
-/* line 120, ../sass/_home.sass */
-.left-bar {
-  width: 30%;
-  float: left;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: rgba(10, 10, 10, 0);
-  height: 100px;
-  width: 300px;
-}
-/* line 128, ../sass/_home.sass */
-.left-bar p {
-  font-family: Cabin;
-  color: white;
-  font-size: 20px;
-}
-
-/* line 1, ../sass/_utils.sass */
-.align-center {
-  text-align: center;
-}
-
-/* line 4, ../sass/_utils.sass */
-.align-left {
-  text-align: left;
-}
-
-/* line 7, ../sass/_utils.sass */
-.align-right {
-  text-align: right;
-}
-
-/* line 11, ../sass/Roast.sass */
-.webicon:hover {
-  margin: 0 0 5px !important;
-}
-
-/* line 15, ../sass/Roast.sass */
-.top-bar {
-  background-color: #1e1e1e;
-  height: 64px;
-}
-/* line 18, ../sass/Roast.sass */
-.top-bar ul {
-  background-color: #1e1e1e;
-  color: white;
-}
-/* line 21, ../sass/Roast.sass */
-.top-bar ul a:hover {
-  color: #00427a;
-}
-/* line 23, ../sass/Roast.sass */
-.top-bar a {
-  color: white;
-  font-family: Oswald, Georgia, Sans Serif;
-  font-size: 1.65em;
-}
-@media screen and (max-width: 640px) {
-  /* line 23, ../sass/Roast.sass */
-  .top-bar a {
-    font-size: 1em;
-  }
-}
-
-/* line 30, ../sass/Roast.sass */
-.top-bar-right {
-  float: right;
-}
-
-/* line 34, ../sass/Roast.sass */
-.top-bar-left li {
-  margin-left: 0px;
-  float: left;
-}
-
-/* line 39, ../sass/Roast.sass */
-.title-bar {
-  background-color: #1e1e1e;
-}
-/* line 41, ../sass/Roast.sass */
-.title-bar ul {
-  background-color: #1e1e1e;
-  color: white;
-}
-/* line 44, ../sass/Roast.sass */
-.title-bar ul a:hover {
-  color: #00427a;
-}
-/* line 46, ../sass/Roast.sass */
-.title-bar a {
-  color: white;
-  font-family: Oswald, Georgia, Sans Serif;
-  font-size: 1em;
-}
-
-/* line 52, ../sass/Roast.sass */
-.menu-text {
-  font-family: Oswald, Georgia, Sans Serif;
-  text-transform: uppercase;
-  font-size: 1.65em;
-}
-@media screen and (max-width: 640px) {
-  /* line 52, ../sass/Roast.sass */
-  .menu-text {
-    font-size: 1em;
-  }
-}
-
-/* line 60, ../sass/Roast.sass */
-#logo-container {
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  margin-left: -75px;
-  height: 150px;
-  width: 150px;
-  background-color: #1e1e1e;
-  padding: 1px;
-}
-@media screen and (max-width: 640px) {
-  /* line 60, ../sass/Roast.sass */
-  #logo-container {
-    top: -5px;
-    width: 120px;
-    height: 120px;
-    margin-left: -60px;
-  }
-}
-
-/* line 77, ../sass/Roast.sass */
-body {
-  background-color: #000000;
-  background-image: url(coffee-wallpaper-gradient.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+Backtrace:
+C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/_home.sass:87
+C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/Roast.sass:7
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:1080:in `parse_mixin_definition'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:649:in `parse_line'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:535:in `build_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:554:in `block in append_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:553:in `each'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:553:in `append_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:406:in `_to_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:309:in `to_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:88:in `block in with_import'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:88:in `with_import'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:79:in `block in with_base'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/stack.rb:79:in `with_base'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/tree/root_node.rb:20:in `render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/engine.rb:278:in `render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid mixin \"======\".\A         on line 87 of C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/_home.sass\A         from line 7 of C:/Users/Edward/Desktop/silver/Silver/mysite/static/styles/sass/Roast.sass\A \A 82: .social-icons\A 83:    \A 84:     position: relative\A 85: <<<<<<< HEAD\A 86:     left: 50%\A 87: =======\A 88:     left: 5%\A 89: >>>>>>> master\A 90:      \A 91: \A 92: "; }
