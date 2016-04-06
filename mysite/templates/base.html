@@ -10,11 +10,12 @@
         <link rel="stylesheet"  href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
         <link type="text/css" link rel="stylesheet" href="/static/styles/stylesheets/Roast.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
+        
         {% render_block "css" %}
     </head>
 
-    <body class="{% block body_class %}{% endblock %} svg">
+
+    <body class="{% block body_class %}{% endblock %}">
 
         {% cms_toolbar %}
         <div class="container">
