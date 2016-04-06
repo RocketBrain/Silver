@@ -24,30 +24,51 @@ div id="Social" class="show-for-medium">
 
 
 
-<!--FACEBOOK ICON!-->
-<a href="https://www.facebook.com/SilverStateCoffeeCo/">
-    <div class="webicon facebook">
-    </div>
-</a>
-
-<a href="#">
-    <div class="webicon mail">
-    </div>
-</a>
-
-
 
 
 
     <div class="content-wrapper">
+    <!--FACEBOOK ICON!-->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/SilverStateCoffeeCo/">
+        <div class="webicon facebook">
+        </div>
+    </a>
 
-        <div class="left-bar">
+    <a href="#">
+        <div class="webicon mail">
+        </div>
+    </a>
+
+</div>
+
+
+
+        <!--<div class="left-bar">
             {% placeholder "leftbar" %}
+        </div>-->
+
+        <!--  {% placeholder "content" %} -->
+
+
+        
+        <div class="row">
+            <div class="medium-offset-1 small-4 columns food_content specials" data-equalizer-watch>
+               
+                  
+                    <h2>SPECIALS FOR TODAY:</h2>
+                    <p class="food_font align-center" >  <i class="fa fa-spoon"> </i>Cream of Potato Soup. </i></p>
+                    <p class="food_font align-center"> &nbsp;&nbsp;&nbsp;<i class="fa fa-spoon"> </i>Meatball Sub Casserole.</p>
+
+
+                   
+             
+            </div>
         </div>
 
-        <div class="row">
-            <div class="medium-offset-6 large-offset-7 medium-6 large-5 columns">
-                <div class="content hours-operation">
+    <div class="row">
+     <div class="small-2 columns address_content hours-operation" data-equalizer-watch>  
+         
                     {% placeholder "content" %}
                     <h2>ADDRESS</h2>
                     <p class="address">4001 S. VIRGINIA ST, RENO, NV 89502</p>
@@ -64,11 +85,13 @@ div id="Social" class="show-for-medium">
                             (775) 800-1001
                         </a>
                     </p>
-                </div>
-            </div>
-        </div>
+                    </div>
+             </div>
+     </div>        
+    </div> 
+             
 
-    </div>
+   
 
 <footer>
   {% static_placeholder 'footer' %}
