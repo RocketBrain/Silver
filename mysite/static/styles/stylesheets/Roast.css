@@ -290,10 +290,10 @@ li.align-left {
 /* line 82, ../sass/_home.sass */
 .social-icons {
   position: relative;
-  left: 50%;
+  bottom: 0;
 }
 
-/* line 99, ../sass/_home.sass */
+/* line 100, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -305,18 +305,18 @@ li.align-left {
   position: relative;
   left: 150px;
 }
-/* line 110, ../sass/_home.sass */
+/* line 111, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 115, ../sass/_home.sass */
+/* line 116, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 120, ../sass/_home.sass */
+/* line 121, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -326,7 +326,7 @@ li.align-left {
   height: 100px;
   width: 300px;
 }
-/* line 128, ../sass/_home.sass */
+/* line 129, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
