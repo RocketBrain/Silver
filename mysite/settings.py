@@ -186,7 +186,8 @@ CMS_TEMPLATES = (
     ## Customize this
     ('page.html', 'Page'),
     ('feature.html', 'Page with Feature'),
-    ('menu_page.html', "Menu Page")
+    ('menu_page.html', "Menu Page"),
+    ('gallery.html', "Gallery Page")
 )
 
 CMS_PERMISSION = True

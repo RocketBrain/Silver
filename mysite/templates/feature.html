@@ -3,37 +3,10 @@
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
-{% block content %}
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
-
-
-
-<!-- This does not work.
-<img src="static/styles/stylesheets/facebook.png'" alt="FaceBook Icon">
-
-And what is show-for-medium?
-
-div id="Social" class="show-for-medium">
-    <a href="/">
-        <img src="static/styles/stylesheets/facebook.png'" alt="FaceBook Icon">
-    </a>
-<!-->
-
-
-
-
-
+{% block container %}
     <div class="content-wrapper">
-        <!--FACEBOOK ICON!-->
-        <!--<div class="left-bar">
-            {% placeholder "leftbar" %}
-        </div>-->
-        <!--  {% placeholder "content" %} -->
         <div class="row">
             <div class="large-4 medium-5 columns address_content hours-operation" data-equalizer-watch="">
-                {% placeholder "content" %}
                 <h2>ADDRESS</h2>
                 <p class="address">4001 S. VIRGINIA ST, RENO, NV 89502</p>
                 <h2>HOURS OF OPERATION</h2>
@@ -56,13 +29,16 @@ div id="Social" class="show-for-medium">
                     <i class="fa fa-spoon"></i> Meatball Sub Casserole.
                 </p>
             </div>
+        </div>
 
+        <div class="row">
+            <div class="small-12 columns">
+                {% placeholder content %}
+            </div>
         </div>
     </div>
 
-
-
-<footer>
-  {% static_placeholder 'footer' %}
-</footer>
-{% endblock content %}
+    <footer>
+      {% static_placeholder 'footer' %}
+    </footer>
+{% endblock container %}
