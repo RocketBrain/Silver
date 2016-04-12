@@ -194,17 +194,10 @@ li.align-left {
   padding: 20px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.2);
-  height: 48rem;
-  width: 50%;
-  position: relative;
-  top: 2rem;
-  bottom: 8rem;
-  left: 56rem;
-  margin-top: 17%;
-  margin-right: 0px;
+  margin-top: 6.25em;
 }
 
-/* line 20, ../sass/_home.sass */
+/* line 12, ../sass/_home.sass */
 .specials {
   font-family: Cabin;
   font-size: 1em;
@@ -212,7 +205,7 @@ li.align-left {
   top: -5rem;
   right: 10rem;
 }
-/* line 26, ../sass/_home.sass */
+/* line 18, ../sass/_home.sass */
 .specials p.food_font, .specials p.food_font2 {
   position: relative;
   left: 1.5rem;
@@ -220,41 +213,34 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 32, ../sass/_home.sass */
+/* line 24, ../sass/_home.sass */
 .specials a {
   color: #ADAFB2;
 }
-/* line 34, ../sass/_home.sass */
+/* line 26, ../sass/_home.sass */
 .specials a:hover {
   color: #00427A;
 }
-/* line 36, ../sass/_home.sass */
+/* line 28, ../sass/_home.sass */
 .specials h2 {
   font-size: 3em;
   font-family: Oswald, Georgia, Sans Serif;
 }
-/* line 39, ../sass/_home.sass */
+/* line 31, ../sass/_home.sass */
 .specials h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 44, ../sass/_home.sass */
+/* line 36, ../sass/_home.sass */
 .address_content {
   padding: 20px;
   box-sizing: border-box;
   background-color: transparent;
-  height: 48rem;
-  width: 28%;
-  position: absolute;
-  top: 2rem;
-  bottom: -7rem;
-  left: 7rem;
   margin-top: 6.25em;
-  margin-left: -111px;
 }
 
-/* line 57, ../sass/_home.sass */
+/* line 42, ../sass/_home.sass */
 .hours-operation {
   font-family: Cabin;
   font-size: 1em;
@@ -262,7 +248,7 @@ li.align-left {
   top: 5rem;
   right: -10rem;
 }
-/* line 63, ../sass/_home.sass */
+/* line 48, ../sass/_home.sass */
 .hours-operation p.address, .hours-operation p.phone_number {
   position: relative;
   left: 1.5rem;
@@ -270,26 +256,26 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 69, ../sass/_home.sass */
+/* line 54, ../sass/_home.sass */
 .hours-operation a {
   color: #ADAFB2;
 }
-/* line 71, ../sass/_home.sass */
+/* line 56, ../sass/_home.sass */
 .hours-operation a:hover {
   color: #00427A;
 }
-/* line 73, ../sass/_home.sass */
+/* line 58, ../sass/_home.sass */
 .hours-operation h2 {
   font-size: 3em;
   font-family: Oswald, Georgia, Sans Serif;
 }
-/* line 76, ../sass/_home.sass */
+/* line 61, ../sass/_home.sass */
 .hours-operation h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 82, ../sass/_home.sass */
+/* line 67, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -297,7 +283,7 @@ li.align-left {
   height: 2em;
 }
 
-/* line 100, ../sass/_home.sass */
+/* line 85, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -309,18 +295,18 @@ li.align-left {
   position: relative;
   left: 150px;
 }
-/* line 111, ../sass/_home.sass */
+/* line 96, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 116, ../sass/_home.sass */
+/* line 101, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 121, ../sass/_home.sass */
+/* line 106, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -330,7 +316,7 @@ li.align-left {
   height: 100px;
   width: 300px;
 }
-/* line 129, ../sass/_home.sass */
+/* line 114, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
@@ -357,25 +343,27 @@ li.align-left {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
   box-sizing: border-box;
   color: #222222;
-  display: inline-block;
-  height: 100px;
-  max-width: 100%;
-  vertical-align: middle;
-  width: 100px;
   border: 2px solid #ADAFB2;
-  object-fit: fill;
-  perspective: 50px;
+  margin-bottom: 20px;
+  min-height: 100px;
 }
 
-/* line 17, ../sass/_gallery.sass */
+/* line 9, ../sass/_gallery.sass */
 .gallery_positon {
-  display: block;
-  position: relative;
-  left: 35%;
-  top: 8em;
+  margin-top: 8em;
 }
 
-/* line 23, ../sass/_gallery.sass */
+/* line 12, ../sass/_gallery.sass */
+.reveal {
+  padding: 0;
+}
+/* line 14, ../sass/_gallery.sass */
+.reveal img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 18, ../sass/_gallery.sass */
 img {
   min-height: 100%;
   width: auto;

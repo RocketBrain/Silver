@@ -1,4 +1,4 @@
-{% load cms_tags staticfiles sekizai_tags menu_tags %}
+{% load cms_tags staticfiles sekizai_tags static menu_tags %}
 <!doctype html>
 <html>
     <head>
@@ -11,6 +11,7 @@
         <link type="text/css" link rel="stylesheet" href="/static/styles/stylesheets/Roast.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
         {% render_block "css" %}
     </head>
 
@@ -27,25 +28,23 @@
             <div class="top-bar" id="main-menu">
                 <!-- LEFT side -->
                 <div class="top-bar-left hide-for-small-only">
+                    <!-- Left Nav Text -->
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li class="menu-text">Silver State Coffee Co.</li>
-                        <!--<li class="webicon facebook"></li>-->
-                           <div class="social-icons">
-        <a href="https://www.facebook.com/SilverStateCoffeeCo/">
-        <div class="webicon facebook">
-        </div>
-    </a>
-
-    <a href="SilverStateCoffeeCo@icloud.com">
-        <div class="webicon mail">
-        </div>
-    </a>
-
-    </div>
-
-
                     </ul>
+
+                    <!-- Social Media Icons -->
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/SilverStateCoffeeCo/">
+                            <div class="webicon facebook"></div>
+                        </a>
+
+                        <a href="mailto:SilverStateCoffeeCo@icloud.com">
+                            <div class="webicon mail"></div>
+                        </a>
+                    </div>
                 </div>
+
                  <!-- LOGO Picture -->
                 <div id="logo-container" class="show-for-medium">
                     <a href="/">
@@ -63,7 +62,9 @@
             </div>
 
             <!-- PAGE CONTENT -->
-            {% block content %}{% endblock content %}
+            {% block container %}
+                {% block content %}{% endblock content %}
+            {% endblock %}
 
         </div>
 
