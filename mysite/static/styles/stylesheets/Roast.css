@@ -69,20 +69,25 @@ section p:nth-child(even) {
   font-style: normal;
 }
 
-/* line 52, ../sass/_menu.sass */
+/* line 49, ../sass/_menu.sass */
+.menu .active > a {
+  background: none !important;
+}
+
+/* line 54, ../sass/_menu.sass */
 .small-12 p {
   font-size: 1.4rem;
   font-style: normal;
 }
 
 /* */
-/* line 68, ../sass/_menu.sass */
+/* line 70, ../sass/_menu.sass */
 .content-wrapper-menu {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 72, ../sass/_menu.sass */
+/* line 74, ../sass/_menu.sass */
 .left-item {
   font-family: Georgia;
   color: #ADAFB2;
@@ -91,7 +96,7 @@ section p:nth-child(even) {
   background-color: none;
 }
 
-/* line 79, ../sass/_menu.sass */
+/* line 81, ../sass/_menu.sass */
 .menu-border-left {
   border-left: 1px solid #00427A;
   height: 745px;
@@ -99,7 +104,7 @@ section p:nth-child(even) {
   top: -60px;
 }
 
-/* line 85, ../sass/_menu.sass */
+/* line 87, ../sass/_menu.sass */
 .menu-border-left2 {
   border-left: 1px solid #00427A;
   height: 800px;
@@ -109,7 +114,7 @@ section p:nth-child(even) {
   clear: both;
 }
 
-/* line 93, ../sass/_menu.sass */
+/* line 95, ../sass/_menu.sass */
 .menu-font {
   color: white;
   font-size: 50px;
@@ -118,7 +123,7 @@ section p:nth-child(even) {
   bottom: 590px;
 }
 
-/* line 100, ../sass/_menu.sass */
+/* line 102, ../sass/_menu.sass */
 .menu-left {
   width: 33%;
   float: left;
@@ -132,7 +137,7 @@ section p:nth-child(even) {
   top: -690px;
 }
 
-/* line 112, ../sass/_menu.sass */
+/* line 114, ../sass/_menu.sass */
 .menu-center {
   width: 33%;
   float: right;
