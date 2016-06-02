@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load cms_tags %}
+{% load cms_tags staticfiles %}
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
@@ -14,11 +14,10 @@
                     <!-- Example image with popup -->
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-1">
-                            <img class="gallery_border" data-equalizer-watch src="http://blog.sqwiggle.com/content/images/2014/01/11-Unwritten-Rules-of-Coffee-Shop-Roberto_Ventre-e1391150672343.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/1.jpg' %}">
                         </a>
-
-                        <div class="reveal" id="gallery-image-1" data-reveal data-show-delay="300">
-                            <img src="http://blog.sqwiggle.com/content/images/2014/01/11-Unwritten-Rules-of-Coffee-Shop-Roberto_Ventre-e1391150672343.jpg">
+                        <div class="reveal" id="gallery-image-1" data-reveal>
+                            <img src="{% static 'styles/images/1.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -28,10 +27,10 @@
                     <!-- Fix these...check closing tags order. -->
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-2">
-                            <img class="gallery_border" data-equalizer-watch src="http://jozoara.com/wp-content/uploads/2012/08/jozoara-cofee-shop.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/2.jpg' %}">
                         </a>
-                        <div class="reveal" id="gallery-image-2" data-reveal data-show-delay="300">
-                            <img src="http://jozoara.com/wp-content/uploads/2012/08/jozoara-cofee-shop.jpg">
+                        <div class="reveal" id="gallery-image-2" data-reveal>
+                            <img src="{% static 'styles/images/2.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -42,10 +41,10 @@
 
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-3">
-                            <img class="gallery_border" data-equalizer-watch src="http://www.baristacoffees.com/wp-content/uploads/2015/09/coffee-shop.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/3.jpg' %}">
                          </a>
-                         <div class="reveal" id="gallery-image-3" data-reveal data-show-delay="300">
-                            <img src="http://www.baristacoffees.com/wp-content/uploads/2015/09/coffee-shop.jpg">
+                         <div class="reveal" id="gallery-image-3" data-reveal>
+                            <img src="{% static 'styles/images/3.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -54,10 +53,10 @@
 
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-4">
-                            <img class="gallery_border" data-equalizer-watch src= "https://assets3.thrillist.com/v1/image/1411625/size/tl-horizontal_main/the-12-best-new-craft-coffee-shops-in-los-angeles">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/4.jpg' %}">
                          </a>
-                         <div class="reveal" id="gallery-image-4" data-reveal data-show-delay="300">
-                            <img src= "https://assets3.thrillist.com/v1/image/1411625/size/tl-horizontal_main/the-12-best-new-craft-coffee-shops-in-los-angeles">
+                         <div class="reveal" id="gallery-image-4" data-reveal>
+                            <img src="{% static 'styles/images/4.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -66,10 +65,10 @@
 
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-5">
-                            <img class="gallery_border" data-equalizer-watch src="http://i.kinja-img.com/gawker-media/image/upload/s--BJMiU7wp--/17oyrpb04wtc5jpg.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/5.jpg' %}">
                          </a>
-                         <div class="reveal" id="gallery-image-5" data-reveal data-show-delay="300">
-                            <img src="http://i.kinja-img.com/gawker-media/image/upload/s--BJMiU7wp--/17oyrpb04wtc5jpg.jpg">
+                         <div class="reveal" id="gallery-image-5" data-reveal>
+                            <img src="{% static 'styles/images/5.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -81,11 +80,11 @@
                 <div class="row medium-up-5">
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-6">
-                            <img class="gallery_border" data-equalizer-watch src="http://scoutology.com/wp-content/uploads/2015/02/beyu-800x533.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/6.jpg' %}">
                         </a>
 
-                        <div class="reveal" id="gallery-image-6" data-reveal data-show-delay="300">
-                            <img src="http://scoutology.com/wp-content/uploads/2015/02/beyu-800x533.jpg">
+                        <div class="reveal" id="gallery-image-6" data-reveal>
+                            <img src="{% static 'styles/images/6.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -94,11 +93,11 @@
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-7">
-                            <img class="gallery_border" data-equalizer-watch src= "http://9bytz.com/wp-content/uploads/2011/10/Coffee-Shop-13.jpg">
+                            <img class="gallery_border" data-equalizer-watch src= "{% static 'styles/images/7.jpg' %}">
                         </a>
 
-                        <div class="reveal" id="gallery-image-7" data-reveal data-show-delay="300">
-                            <img src="http://9bytz.com/wp-content/uploads/2011/10/Coffee-Shop-13.jpg">
+                        <div class="reveal" id="gallery-image-7" data-reveal>
+                            <img src="{% static 'styles/images/7.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -107,11 +106,11 @@
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-8">
-                            <img class="gallery_border" data-equalizer-watch src= "http://www.brewed-coffee.com/wp-content/uploads/2008/10/explorations-cafe-maasdam.jpg">
+                            <img class="gallery_border" data-equalizer-watch src= "{% static 'styles/images/8.jpg' %}">
                         </a>
 
-                        <div class="reveal" id="gallery-image-8" data-reveal data-show-delay="300">
-                            <img src= "http://www.brewed-coffee.com/wp-content/uploads/2008/10/explorations-cafe-maasdam.jpg">
+                        <div class="reveal" id="gallery-image-8" data-reveal>
+                            <img src= "{% static 'styles/images/8.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -120,11 +119,11 @@
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-9">
-                            <img class="gallery_border" data-equalizer-watch src="https://s-media-cache-ak0.pinimg.com/736x/47/87/38/4787389e3d0cb9dfa7529b5ff14c3eeb.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/9.jpg' %}">
                         </a>
 
-                        <div class="reveal" id="gallery-image-9" data-reveal data-show-delay="300">
-                            <img src="https://s-media-cache-ak0.pinimg.com/736x/47/87/38/4787389e3d0cb9dfa7529b5ff14c3eeb.jpg">
+                        <div class="reveal" id="gallery-image-9" data-reveal>
+                            <img src="{% static 'styles/images/9.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -133,11 +132,11 @@
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-10">
-                            <img class="gallery_border" data-equalizer-watch src="http://216.243.142.162/storyart/coffee_shop_design-sized.jpg">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/10.jpg' %}">
                         </a>
 
-                        <div class="reveal" id="gallery-image-10" data-reveal data-show-delay="300">
-                            <img src="http://216.243.142.162/storyart/coffee_shop_design-sized.jpg">
+                        <div class="reveal" id="gallery-image-10" data-reveal>
+                            <img src="{% static 'styles/images/10.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
