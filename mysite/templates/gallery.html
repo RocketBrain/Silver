@@ -8,17 +8,17 @@
 {% block content %}
 
     <div class="row">
-        <div class="large-8 large-offset-2 columns">
-            <div class="gallery_positon" data-equalizer data-equalize-on="medium">
+        <div class="medium-8 large-offset-2 columns data-equalizer">
+            <div class="gallery_positon" data-equalizer data-equalize-on="small" style="height 50px;">
                 <div class="row medium-up-5">
                     <!-- Example image with popup -->
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-1">
-                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/1.jpg' %}">
+                            <img class="gallery_border" data-equalizer-watch src="{% static 'styles/images/1.jpg' %}" style="height: 22px;">
                         </a>
                        
-                        <div class="reveal" id="gallery-image-1" data-reveal>
-                            <img src="{% static 'styles/images/1.jpg' %}">
+                        <div class="reveal" id="gallery-image-1"  data-reveal>
+                            <img src="{% static 'styles/images/1.jpg' %}" style="height:100px;">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
