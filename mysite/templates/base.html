@@ -48,7 +48,7 @@
                  <!-- LOGO Picture -->
                 <div id="logo-container" class="show-for-medium">
                     <a href="/">
-                        <img src="{% static 'styles/stylesheets/silver1.png' %}" alt="Silver State Coffee Co.">
+                        <img src="{% static '/static/styles/stylesheets/silver1.png' %}" alt="Silver State Coffee Co.">
                     </a>
                 </div>
 
@@ -56,6 +56,9 @@
                 <div class="top-bar-right">
                     <ul class="dropdown menu" data-dropdown-menu>
                         <!--dynamically generates the menu -->
+                        <li role="menuitem" class="">
+                           <a tabindex="0" href="/#/">Home</a>
+                        </li>
                         {% show_menu 0 1 100 100 "menu.html" %}
                     </ul>
                 </div>

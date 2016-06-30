@@ -1,0 +1,487 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700);
+/* line 2, ../sass/_menu.sass */
+.menu-wrapper {
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+/* line 6, ../sass/_menu.sass */
+.menu-title-container {
+  border-bottom: 1px solid #00427A;
+}
+@media only screen and (max-width: 40em) {
+  /* line 6, ../sass/_menu.sass */
+  .menu-title-container {
+    height: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* line 13, ../sass/_menu.sass */
+.menu-title {
+  margin: 0;
+  line-height: 90%;
+}
+
+/* line 17, ../sass/_menu.sass */
+section {
+  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 1.5em !important;
+}
+/* line 22, ../sass/_menu.sass */
+section.menu-items {
+  text-align: center;
+  color: #ADAFB2;
+}
+/* line 25, ../sass/_menu.sass */
+section.menu-items li {
+  font-size: 1.1rem;
+}
+/* line 27, ../sass/_menu.sass */
+section.border-right {
+  border-right: 1px solid #00427A;
+}
+/* line 29, ../sass/_menu.sass */
+section h1, section h2, section h3, section h4, section h5 {
+  font-family: Oswald, Georgia, Sans Serif;
+  color: #ADAFB2;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+/* line 34, ../sass/_menu.sass */
+section h4 {
+  font-size: 1.3rem;
+}
+/* line 36, ../sass/_menu.sass */
+section h3 {
+  font-size: 1.4rem;
+  text-align: left;
+}
+/* line 39, ../sass/_menu.sass */
+section p {
+  text-align: left;
+  color: #ADAFB2;
+  font-style: italic;
+}
+/* line 43, ../sass/_menu.sass */
+section p:nth-child(even) {
+  font-style: normal;
+}
+
+/* line 49, ../sass/_menu.sass */
+.menu .active > a {
+  background: none !important;
+}
+
+/* line 54, ../sass/_menu.sass */
+.small-12 p {
+  font-size: 1.4rem;
+  font-style: normal;
+}
+
+/* */
+/* line 70, ../sass/_menu.sass */
+.content-wrapper-menu {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 74, ../sass/_menu.sass */
+.left-item {
+  font-family: Georgia;
+  color: #ADAFB2;
+  font-size: 28px;
+  background: none;
+  background-color: none;
+}
+
+/* line 81, ../sass/_menu.sass */
+.menu-border-left {
+  border-left: 1px solid #00427A;
+  height: 745px;
+  position: relative;
+  top: -60px;
+}
+
+/* line 87, ../sass/_menu.sass */
+.menu-border-left2 {
+  border-left: 1px solid #00427A;
+  height: 800px;
+  position: relative;
+  top: -120px;
+  left: 0px;
+  clear: both;
+}
+
+/* line 95, ../sass/_menu.sass */
+.menu-font {
+  color: white;
+  font-size: 50px;
+  font-family: Cabin;
+  position: relative;
+  bottom: 590px;
+}
+
+/* line 102, ../sass/_menu.sass */
+.menu-left {
+  width: 33%;
+  float: left;
+  padding: 10px;
+  font-family: Cabin;
+  font-size: 56px;
+  color: white;
+  background: none;
+  background-color: none;
+  position: relative;
+  top: -690px;
+}
+
+/* line 114, ../sass/_menu.sass */
+.menu-center {
+  width: 33%;
+  float: right;
+  padding: 10px;
+  font-family: Cabin;
+  font-size: 56px;
+  color: white;
+  background: none;
+  background-color: none;
+  position: relative;
+  top: -690px;
+}
+
+/* */
+/* line 2, ../sass/_lists.sass */
+ul.inline {
+  display: inline-block;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0.94444rem;
+  margin-left: -1rem;
+  padding: 0;
+}
+/* line 9, ../sass/_lists.sass */
+ul.inline li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin-left: 1rem;
+}
+
+/* line 15, ../sass/_lists.sass */
+ul.plain {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0.94444rem;
+  margin-left: -1rem;
+  padding: 0;
+}
+/* line 21, ../sass/_lists.sass */
+ul.plain li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+/* line 25, ../sass/_lists.sass */
+li.align-left {
+  text-align: left;
+}
+
+/* line 1, ../sass/_home.sass */
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/_home.sass */
+.food_content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 6.25em;
+}
+
+/* line 12, ../sass/_home.sass */
+.specials {
+  font-family: Cabin;
+  font-size: 1em;
+  color: white;
+  top: -5rem;
+  right: 10rem;
+}
+/* line 18, ../sass/_home.sass */
+.specials p.food_font, .specials p.food_font2 {
+  position: relative;
+  left: 1.5rem;
+  font-size: 1.7rem;
+  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
+  color: #ADAFB2;
+}
+/* line 24, ../sass/_home.sass */
+.specials a {
+  color: #ADAFB2;
+}
+/* line 26, ../sass/_home.sass */
+.specials a:hover {
+  color: #00427A;
+}
+/* line 28, ../sass/_home.sass */
+.specials h2 {
+  font-size: 3em;
+  font-family: Oswald, Georgia, Sans Serif;
+}
+/* line 31, ../sass/_home.sass */
+.specials h4 {
+  font-family: Oswald, Georgia, Sans Serif;
+  color: #ADAFB2;
+}
+
+/* line 36, ../sass/_home.sass */
+.address_content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin-top: 6.25em;
+}
+
+/* line 43, ../sass/_home.sass */
+.hours-operation {
+  font-family: Cabin;
+  font-size: 1em;
+  color: white;
+  top: 5rem;
+  right: -10rem;
+}
+/* line 49, ../sass/_home.sass */
+.hours-operation p.address, .hours-operation p.phone_number {
+  position: relative;
+  left: 1.5rem;
+  font-size: 1.5rem;
+  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
+  color: #ADAFB2;
+}
+/* line 55, ../sass/_home.sass */
+.hours-operation a {
+  color: #ADAFB2;
+}
+/* line 57, ../sass/_home.sass */
+.hours-operation a:hover {
+  color: #00427A;
+}
+/* line 59, ../sass/_home.sass */
+.hours-operation h2 {
+  font-family: Oswald, Georgia, Sans Serif;
+}
+/* line 62, ../sass/_home.sass */
+.hours-operation h4 {
+  font-family: Oswald, Georgia, Sans Serif;
+  color: #ADAFB2;
+}
+
+/* line 69, ../sass/_home.sass */
+.social-icons {
+  position: relative;
+  bottom: 2.5rem;
+  left: 25rem;
+  height: 2em;
+}
+
+/* line 87, ../sass/_home.sass */
+.content-right {
+  width: 100%;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgba(10, 10, 10, 0.5);
+  height: 100px;
+  width: 500px;
+  position: relative;
+  left: 150px;
+}
+/* line 98, ../sass/_home.sass */
+.content-right p {
+  font-family: Blooming Grove;
+  color: white;
+  font-size: 30px;
+}
+/* line 103, ../sass/_home.sass */
+.content-right p:nth-child(3) {
+  font-size: 12px;
+}
+
+/* line 108, ../sass/_home.sass */
+.left-bar {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(10, 10, 10, 0);
+  height: 100px;
+  width: 300px;
+}
+/* line 116, ../sass/_home.sass */
+.left-bar p {
+  font-family: Cabin;
+  color: white;
+  font-size: 20px;
+}
+
+/* line 1, ../sass/_utils.sass */
+.align-center {
+  text-align: center;
+}
+
+/* line 4, ../sass/_utils.sass */
+.align-left {
+  text-align: left;
+}
+
+/* line 7, ../sass/_utils.sass */
+.align-right {
+  text-align: right;
+}
+
+/* line 1, ../sass/_gallery.sass */
+.gallery_border {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+  box-sizing: border-box;
+  color: #222222;
+  border: 2px solid #ADAFB2;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+/* line 9, ../sass/_gallery.sass */
+.gallery_positon {
+  margin-top: 8em;
+}
+
+/* line 12, ../sass/_gallery.sass */
+.reveal {
+  padding: 0;
+}
+/* line 14, ../sass/_gallery.sass */
+.reveal img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 18, ../sass/_gallery.sass */
+img {
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 12, ../sass/Roast.sass */
+.webicon:hover {
+  margin: 0 0 5px !important;
+}
+
+/* line 16, ../sass/Roast.sass */
+.top-bar {
+  background-color: #1e1e1e;
+  height: 64px;
+}
+/* line 19, ../sass/Roast.sass */
+.top-bar ul {
+  background-color: #1e1e1e;
+  color: white;
+}
+/* line 22, ../sass/Roast.sass */
+.top-bar ul a:hover {
+  color: #00427a;
+}
+/* line 24, ../sass/Roast.sass */
+.top-bar a {
+  color: white;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1.65em;
+}
+@media screen and (max-width: 640px) {
+  /* line 24, ../sass/Roast.sass */
+  .top-bar a {
+    font-size: 1em;
+  }
+}
+
+/* line 31, ../sass/Roast.sass */
+.top-bar-right {
+  float: right;
+}
+
+/* line 35, ../sass/Roast.sass */
+.top-bar-left li {
+  margin-left: 0px;
+  float: left;
+}
+
+/* line 42, ../sass/Roast.sass */
+.title-bar {
+  background-color: #1e1e1e;
+}
+/* line 44, ../sass/Roast.sass */
+.title-bar ul {
+  background-color: #1e1e1e;
+  color: white;
+}
+/* line 47, ../sass/Roast.sass */
+.title-bar ul a:hover {
+  color: #00427a;
+}
+/* line 49, ../sass/Roast.sass */
+.title-bar a {
+  color: white;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1em;
+}
+
+/* line 55, ../sass/Roast.sass */
+.menu-text {
+  font-family: Oswald, Georgia, Sans Serif;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+@media screen and (max-width: 640px) {
+  /* line 55, ../sass/Roast.sass */
+  .menu-text {
+    font-size: 1em;
+  }
+}
+
+/* line 63, ../sass/Roast.sass */
+#logo-container {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  margin-left: -75px;
+  height: 150px;
+  width: 150px;
+  background-color: #1e1e1e;
+  padding: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 63, ../sass/Roast.sass */
+  #logo-container {
+    top: -5px;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+  }
+}
+
+/* line 80, ../sass/Roast.sass */
+body {
+  background-color: #000000;
+  background-image: url(coffee-wallpaper-gradient.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 88, ../sass/Roast.sass */
+.image1 {
+  background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/wsvwU-fM_1KoVtElBe2Vew/ls.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}

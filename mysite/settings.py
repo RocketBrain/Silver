@@ -198,7 +198,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': 'project.db',
+        'NAME': '/home/edward/djangospace/silver/project.db',
         'PASSWORD': '',
         'PORT': '',
         'USER': ''

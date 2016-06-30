@@ -6,7 +6,7 @@
 
 /* line 6, ../sass/_menu.sass */
 .menu-title-container {
-  border-bottom: 1px solid #00427A;
+  border-bottom: 1px solid #00427a;
 }
 @media only screen and (max-width: 40em) {
   /* line 6, ../sass/_menu.sass */
@@ -25,14 +25,14 @@
 /* line 17, ../sass/_menu.sass */
 section {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #FFFFFF;
+  color: white;
   width: 100%;
   padding: 1.5em !important;
 }
 /* line 22, ../sass/_menu.sass */
 section.menu-items {
   text-align: center;
-  color: #ADAFB2;
+  color: #adafb2;
 }
 /* line 25, ../sass/_menu.sass */
 section.menu-items li {
@@ -40,12 +40,12 @@ section.menu-items li {
 }
 /* line 27, ../sass/_menu.sass */
 section.border-right {
-  border-right: 1px solid #00427A;
+  border-right: 1px solid #00427a;
 }
 /* line 29, ../sass/_menu.sass */
 section h1, section h2, section h3, section h4, section h5 {
   font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
+  color: #adafb2;
   text-align: center;
   margin-bottom: 0.2em;
 }
@@ -61,7 +61,7 @@ section h3 {
 /* line 39, ../sass/_menu.sass */
 section p {
   text-align: left;
-  color: #ADAFB2;
+  color: #adafb2;
   font-style: italic;
 }
 /* line 43, ../sass/_menu.sass */
@@ -90,7 +90,7 @@ section p:nth-child(even) {
 /* line 74, ../sass/_menu.sass */
 .left-item {
   font-family: Georgia;
-  color: #ADAFB2;
+  color: #adafb2;
   font-size: 28px;
   background: none;
   background-color: none;
@@ -98,7 +98,7 @@ section p:nth-child(even) {
 
 /* line 81, ../sass/_menu.sass */
 .menu-border-left {
-  border-left: 1px solid #00427A;
+  border-left: 1px solid #00427a;
   height: 745px;
   position: relative;
   top: -60px;
@@ -106,7 +106,7 @@ section p:nth-child(even) {
 
 /* line 87, ../sass/_menu.sass */
 .menu-border-left2 {
-  border-left: 1px solid #00427A;
+  border-left: 1px solid #00427a;
   height: 800px;
   position: relative;
   top: -120px;
@@ -216,36 +216,36 @@ li.align-left {
   left: 1.5rem;
   font-size: 1.7rem;
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #ADAFB2;
+  color: #adafb2;
 }
-/* line 24, ../sass/_home.sass */
+/* line 25, ../sass/_home.sass */
 .specials a {
-  color: #ADAFB2;
+  color: #adafb2;
 }
-/* line 26, ../sass/_home.sass */
+/* line 27, ../sass/_home.sass */
 .specials a:hover {
-  color: #00427A;
+  color: #00427a;
 }
-/* line 28, ../sass/_home.sass */
+/* line 29, ../sass/_home.sass */
 .specials h2 {
   font-size: 3em;
   font-family: Oswald, Georgia, Sans Serif;
 }
-/* line 31, ../sass/_home.sass */
+/* line 32, ../sass/_home.sass */
 .specials h4 {
   font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
+  color: #adafb2;
 }
 
-/* line 36, ../sass/_home.sass */
+/* line 37, ../sass/_home.sass */
 .address_content {
   padding: 20px;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 6.25em;
 }
 
-/* line 43, ../sass/_home.sass */
+/* line 44, ../sass/_home.sass */
 .hours-operation {
   font-family: Cabin;
   font-size: 1em;
@@ -253,33 +253,39 @@ li.align-left {
   top: 5rem;
   right: -10rem;
 }
-/* line 49, ../sass/_home.sass */
+/* line 50, ../sass/_home.sass */
 .hours-operation p.address, .hours-operation p.phone_number {
   position: relative;
   left: 1.5rem;
   font-size: 1.5rem;
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #ADAFB2;
+  color: #adafb2;
 }
-/* line 55, ../sass/_home.sass */
+@media screen and (max-width: 640px) {
+  /* line 44, ../sass/_home.sass */
+  .hours-operation {
+    font-size: 0.5em;
+  }
+}
+/* line 58, ../sass/_home.sass */
 .hours-operation a {
-  color: #ADAFB2;
+  color: #adafb2;
 }
-/* line 57, ../sass/_home.sass */
+/* line 60, ../sass/_home.sass */
 .hours-operation a:hover {
-  color: #00427A;
+  color: #00427a;
 }
-/* line 59, ../sass/_home.sass */
+/* line 62, ../sass/_home.sass */
 .hours-operation h2 {
   font-family: Oswald, Georgia, Sans Serif;
 }
-/* line 62, ../sass/_home.sass */
+/* line 65, ../sass/_home.sass */
 .hours-operation h4 {
   font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
+  color: #adafb2;
 }
 
-/* line 69, ../sass/_home.sass */
+/* line 72, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -287,7 +293,7 @@ li.align-left {
   height: 2em;
 }
 
-/* line 87, ../sass/_home.sass */
+/* line 90, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -299,18 +305,18 @@ li.align-left {
   position: relative;
   left: 150px;
 }
-/* line 98, ../sass/_home.sass */
+/* line 101, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 103, ../sass/_home.sass */
+/* line 106, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 108, ../sass/_home.sass */
+/* line 111, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -320,7 +326,7 @@ li.align-left {
   height: 100px;
   width: 300px;
 }
-/* line 116, ../sass/_home.sass */
+/* line 119, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
@@ -347,7 +353,7 @@ li.align-left {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
   box-sizing: border-box;
   color: #222222;
-  border: 2px solid #ADAFB2;
+  border: 2px solid #adafb2;
   margin-bottom: 20px;
   min-height: 100px;
 }
@@ -472,7 +478,7 @@ img {
 
 /* line 80, ../sass/Roast.sass */
 body {
-  background-color: #000000;
+  background-color: black;
   background-image: url(coffee-wallpaper-gradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
