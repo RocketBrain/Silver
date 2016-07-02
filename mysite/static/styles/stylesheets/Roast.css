@@ -382,6 +382,11 @@ img {
   max-width: 100%;
 }
 
+/* line 26, ../sass/_gallery.sass */
+.modal.and.carousel {
+  position: absolute;
+}
+
 /* line 12, ../sass/Roast.sass */
 .webicon:hover {
   margin: 0 0 5px !important;
