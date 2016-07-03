@@ -11,6 +11,9 @@
         <div class="large-8 large-offset-2 columns data-equalizer">
             <div class="gallery_positon" data-equalizer data-equalize-on="medium">
                 <div class="row medium-up-5">
+                    
+
+
                     <!-- Example image with popup -->
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-1">
@@ -21,7 +24,20 @@
                             <img src="{% static 'styles/images/1.jpg' %}" >
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
+                                <!-- Add a white background for visibility -->
                             </button>
+                            <button class="next-button"></button>
+                              <!-- CSS to absolute position
+                                 - right: 15px;
+                                 - top: 50%
+                                 - margin-top: -(half of the button height is)
+                                 - manually set button height
+                                 - choose a next arrow icon from font-awesome for the button content
+                                 - do the backwards for the back button
+
+                                 When at least visually "ok"-ish, let me know.
+                                 - Josh will create JavaScript function to add "event listeners" to the classe "next-button" and "back-button"
+                              -->
                         </div>
                     </div>
 
