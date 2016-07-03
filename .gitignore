@@ -1,4 +1,3 @@
-
 mysite/static/node_modules/*
 
 media/*
@@ -6,6 +5,8 @@ media/*
 *.pyc
 
 mysite/secret.py
+
+mysite/env_config/config.py
 
 .DS_Store
 

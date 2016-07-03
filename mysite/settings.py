@@ -194,11 +194,14 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
+# Set in env.py file.
+from .env import DATABASE_NAME
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': '/home/edward/djangospace/silver/project.db',
+        'NAME': DATABASE_NAME,
         'PASSWORD': '',
         'PORT': '',
         'USER': ''
