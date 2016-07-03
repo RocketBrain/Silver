@@ -1,6 +1,6 @@
 from .config import env
 
 if env == 'dev':
-    from .env import *
+    from .dev import *
 elif env == 'prod':
     from .prod import *

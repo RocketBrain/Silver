@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 from .secret import SECRET_KEY
+from .env_config import env
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -194,14 +195,11 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-# Set in env.py file.
-from .env import DATABASE_NAME
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': DATABASE_NAME,
+        'NAME': env.DATABASE_NAME,
         'PASSWORD': '',
         'PORT': '',
         'USER': ''
