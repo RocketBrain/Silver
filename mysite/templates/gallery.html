@@ -11,9 +11,6 @@
         <div class="large-8 large-offset-2 columns data-equalizer">
             <div class="gallery_positon" data-equalizer data-equalize-on="medium">
                 <div class="row medium-up-5">
-                    
-
-
                     <!-- Example image with popup -->
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-1">
@@ -21,83 +18,19 @@
                         </a>
 
                         <div class="reveal" id="gallery-image-1"  data-reveal>
-                            <img src="{% static 'styles/images/1.jpg' %}" >
+                            <img src="{% static 'styles/images/1.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
-                                <span aria-hidden="true">&times;</span>
-                                <!-- Add a white background for visibility -->
+                             <span aria-hidden="true">&times;</span>
                             </button>
-                            <button class="next-button"></button>
-                              <!-- CSS to absolute position
-                                 - right: 15px;
-                                 - top: 50%
-                                 - margin-top: -(half of the button height is)
-                                 - manually set button height
-                                 - choose a next arrow icon from font-awesome for the button content
-                                 - do the backwards for the back button
+                            <button type= "submit" class="next-button"> <i class="fa fa-angle-right fa-4x" aria-hidden="true"></i></button>
+                            <button type= "submit" class="back-button"> <i class="fa fa-angle-left fa-4x" aria-hidden="true"></i></button>
 
-                                 When at least visually "ok"-ish, let me know.
-                                 - Josh will create JavaScript function to add "event listeners" to the classe "next-button" and "back-button"
-                              -->
+
                         </div>
                     </div>
 
 
-                    <!-- NOT NEEDED RIGHT NOW.
-                    <script>
-                    $('gallery-image-1').on('click', function() {
-                    $('gallery-image-1').foundation('reveal','open');
-                                                                    });
-                    $('a.open-second').on('click', function() {
-                    $('gallery-image-2').foundation('reveal', 'open');
-                                                                    });
-                    $('a.close').on('click', function() {
-                    $('gallery-image-2').foundation('reveal', 'close');
-                                                                    });
-                    </script>
-                    -->
-
-                    <div class="container">
-
-  <ul class="nav nav-pills nav-stacked">
-    <li><a href="#lightbox" data-toggle="modal">Open Lightbox</a></li>
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="1">2nd Image</a></li>
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="2">3rd Image</a></li>
-    <li><a href="#lightbox" data-toggle="modal" data-slide-to="15">Open non existing Image</a></li>
-  </ul>
-  
-  <div class="modal fade and carousel slide" id="lightbox">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <ol class="carousel-indicators">
-            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
-            <li data-target="#lightbox" data-slide-to="1"></li>
-            <li data-target="#lightbox" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="{% static 'styles/images/1.jpg' %}"alt="First slide">
-            </div>
-            <div class="item">
-              <img src="{% static 'styles/images/2.jpg' %}" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="http://placehold.it/900x500/555/" alt="Third slide">
-              <div class="carousel-caption"><p>even with captions...</p></div>
-            </div>
-          </div><!-- /.carousel-inner -->
-          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div><!-- /.modal-body -->
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-</div><!-- /.container -->
+         
 
                     <div class="column" style="inline-block">
                         <a data-open="gallery-image-2">
@@ -106,10 +39,7 @@
                         <div class="reveal" id="gallery-image-2" data-reveal>
                             <img src="{% static 'styles/images/2.jpg' %}">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
-                            <div class="carousel-inner">
-                            <div class="item active">
-              <img src="{% static 'styles/images/2.jpg' %}"alt="Second slide">
-            </div>
+                            
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -226,6 +156,20 @@
     </div>
 
     <footer>
+               <!-- NOT NEEDED RIGHT NOW.
+                    <script>
+                    $('gallery-image-1').on('click', function() {
+                    $('gallery-image-1').foundation('reveal','open');
+                                                                    });
+                    $('a.open-second').on('click', function() {
+                    $('gallery-image-2').foundation('reveal', 'open');
+                                                                    });
+                    $('a.close').on('click', function() {
+                    $('gallery-image-2').foundation('reveal', 'close');
+                                                                    });
+                    </script>
+                    -->
+
         {% static_placeholder 'footer' %}
     </footer>
 {% endblock content %}

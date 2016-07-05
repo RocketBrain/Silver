@@ -366,25 +366,54 @@ li.align-left {
 /* line 12, ../sass/_gallery.sass */
 .close-button {
   color: #00427a;
+  background-color: black;
 }
 
-/* line 15, ../sass/_gallery.sass */
+/* line 19, ../sass/_gallery.sass */
+.close-button:hover {
+  color: #adafb2;
+}
+
+/* line 22, ../sass/_gallery.sass */
 .reveal {
   padding: 0;
 }
-/* line 18, ../sass/_gallery.sass */
+/* line 25, ../sass/_gallery.sass */
 .reveal img {
   max-width: 100%;
 }
 
-/* line 22, ../sass/_gallery.sass */
+/* line 29, ../sass/_gallery.sass */
 img {
   max-width: 100%;
 }
 
-/* line 26, ../sass/_gallery.sass */
-.modal.and.carousel {
+/* line 33, ../sass/_gallery.sass */
+.next-button {
   position: absolute;
+  right: 15px;
+  top: 50%;
+  height: 50px;
+  color: #adafb2;
+}
+
+/* line 40, ../sass/_gallery.sass */
+.back-button {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  height: 50px;
+  color: #adafb2;
+}
+
+/* line 47, ../sass/_gallery.sass */
+.back-button:hover {
+  color: #00427a;
+}
+
+/* line 50, ../sass/_gallery.sass */
+.next-button:hover {
+  color: #00427a;
 }
 
 /* line 12, ../sass/Roast.sass */
