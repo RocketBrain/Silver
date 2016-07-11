@@ -37,57 +37,58 @@ section.menu-items {
 /* line 25, ../sass/_menu.sass */
 section.menu-items li {
   font-size: 1.1rem;
+  display: block;
 }
-/* line 27, ../sass/_menu.sass */
+/* line 28, ../sass/_menu.sass */
 section.border-right {
   border-right: 1px solid #00427a;
 }
-/* line 29, ../sass/_menu.sass */
+/* line 30, ../sass/_menu.sass */
 section h1, section h2, section h3, section h4, section h5 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #adafb2;
   text-align: center;
   margin-bottom: 0.2em;
 }
-/* line 34, ../sass/_menu.sass */
+/* line 35, ../sass/_menu.sass */
 section h4 {
   font-size: 1.3rem;
 }
-/* line 36, ../sass/_menu.sass */
+/* line 37, ../sass/_menu.sass */
 section h3 {
   font-size: 1.4rem;
   text-align: left;
 }
-/* line 39, ../sass/_menu.sass */
+/* line 40, ../sass/_menu.sass */
 section p {
   text-align: left;
   color: #adafb2;
   font-style: italic;
 }
-/* line 43, ../sass/_menu.sass */
+/* line 44, ../sass/_menu.sass */
 section p:nth-child(even) {
   font-style: normal;
 }
 
-/* line 49, ../sass/_menu.sass */
+/* line 50, ../sass/_menu.sass */
 .menu .active > a {
   background: none !important;
 }
 
-/* line 54, ../sass/_menu.sass */
+/* line 55, ../sass/_menu.sass */
 .small-12 p {
   font-size: 1.4rem;
   font-style: normal;
 }
 
 /* */
-/* line 70, ../sass/_menu.sass */
+/* line 71, ../sass/_menu.sass */
 .content-wrapper-menu {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 74, ../sass/_menu.sass */
+/* line 75, ../sass/_menu.sass */
 .left-item {
   font-family: Georgia;
   color: #adafb2;
@@ -96,7 +97,7 @@ section p:nth-child(even) {
   background-color: none;
 }
 
-/* line 81, ../sass/_menu.sass */
+/* line 82, ../sass/_menu.sass */
 .menu-border-left {
   border-left: 1px solid #00427a;
   height: 745px;
@@ -104,7 +105,7 @@ section p:nth-child(even) {
   top: -60px;
 }
 
-/* line 87, ../sass/_menu.sass */
+/* line 88, ../sass/_menu.sass */
 .menu-border-left2 {
   border-left: 1px solid #00427a;
   height: 800px;
@@ -114,7 +115,7 @@ section p:nth-child(even) {
   clear: both;
 }
 
-/* line 95, ../sass/_menu.sass */
+/* line 96, ../sass/_menu.sass */
 .menu-font {
   color: white;
   font-size: 50px;
@@ -123,7 +124,7 @@ section p:nth-child(even) {
   bottom: 590px;
 }
 
-/* line 102, ../sass/_menu.sass */
+/* line 103, ../sass/_menu.sass */
 .menu-left {
   width: 33%;
   float: left;
@@ -137,7 +138,7 @@ section p:nth-child(even) {
   top: -690px;
 }
 
-/* line 114, ../sass/_menu.sass */
+/* line 115, ../sass/_menu.sass */
 .menu-center {
   width: 33%;
   float: right;
@@ -168,8 +169,16 @@ ul.inline li {
   list-style: none;
   margin-left: 1rem;
 }
+/* line 21, ../sass/_lists.sass */
+ul.inline ul.inline li {
+  display: block;
+}
+/* line 23, ../sass/_lists.sass */
+ul.inline ul.inline ul {
+  display: block;
+}
 
-/* line 15, ../sass/_lists.sass */
+/* line 26, ../sass/_lists.sass */
 ul.plain {
   list-style: none;
   margin-top: 0;
@@ -177,15 +186,17 @@ ul.plain {
   margin-left: -1rem;
   padding: 0;
 }
-/* line 21, ../sass/_lists.sass */
+/* line 32, ../sass/_lists.sass */
 ul.plain li {
   list-style: none;
   margin-left: 1rem;
+  display: block;
 }
 
-/* line 25, ../sass/_lists.sass */
+/* line 37, ../sass/_lists.sass */
 li.align-left {
   text-align: left;
+  display: block;
 }
 
 /* line 1, ../sass/_home.sass */

@@ -12,6 +12,17 @@ ul.inline
         list-style: none
         margin-left: 1rem
 
+    @media only screen and (max-width: 20em)
+
+    ul.inline
+        
+
+
+        li 
+            display: block 
+        ul
+            display: block      
+
 ul.plain
     list-style: none
     margin-top: 0
@@ -21,9 +32,11 @@ ul.plain
     li
         list-style: none
         margin-left: 1rem
+        display: block
 
 li.align-left
     text-align: left
+    display: block
 
 
 // You may be able to use ul for Panini instead of the div, and just adjust it accordingly.
