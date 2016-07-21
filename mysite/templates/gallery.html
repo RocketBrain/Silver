@@ -228,7 +228,9 @@
 
         {% static_placeholder 'footer' %}
     </footer>
+{% endblock content %}
 
+{% block extra_scripts %}
     <script type="text/javascript">
         // List of reveal divs
         var reveal_list = $('.reveal');
@@ -273,4 +275,4 @@
             }
         });
     </script>
-{% endblock content %}
+{% endblock extra_scripts %}

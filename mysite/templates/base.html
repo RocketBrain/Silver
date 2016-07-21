@@ -95,11 +95,12 @@
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        {% render_block "js" %}
-
         <script src="{% static 'foundation/bower_components/foundation-sites/dist/foundation.min.js' %}"></script>
+        {% block extra_scripts %}
+            <!-- Load page specific JavaScript -->
+        {% endblock extra_scripts %}
 
-        
+        {% render_block "js" %}
 
         <script>
             $(document).foundation();
