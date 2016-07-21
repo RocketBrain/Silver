@@ -6,7 +6,7 @@
 {% block container %}
     <div class="content-wrapper">
         <div class="row">
-            <div class="large-4 medium-5 columns address_content hours-operation" data-equalizer-watch="">
+            <div class="large-5 medium-6 columns address_content hours-operation">
                 <h2>ADDRESS</h2>
                 <p class="address">4001 S. VIRGINIA ST, RENO, NV 89502</p>
                 <h2>HOURS OF OPERATION</h2>
@@ -22,45 +22,15 @@
             </div>
            
             
-                <div class=" medium-4 columns address_content hours-operation" style="float:right;">
-                     
-                     <iframe
-                      width="200"
-                      height="400"
-                      frameborder="0" style="border:0"
-                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD3e_FsnJbz5q4UTQy-zzbb-kXDD-EHidM 
-                        &q=Silver State Coffee Co.,Reno+NV" allowfullscreen>
-                    </iframe>
-                </div>    
-              
-
-              <!-- NOT NEEDED UNTIL WE GET A CUSTOM PLUG-IN
-              
-           <div class="large-4 large-offset-4 medium-5 medium-offset-2 columns food_content specials" data-equalizer-watch="">
-             
-               <h2>SPECIALS FOR TODAY:</h2>
-                <p class="food_font">
-                    <i class="fa fa-spoon"></i> Cream of Potato Soup.
-                </p>
-                <p class="food_font">
-                    <i class="fa fa-spoon"></i> Meatball Sub Casserole.
-                </p>
-            </div>
+            <div class="large-offset-2 large-5 medium-6 columns address_content hours-operation">
+                <h2>LOCATION</h2>
+                <iframe frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 500px;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD3e_FsnJbz5q4UTQy-zzbb-kXDD-EHidM&q=Silver State Coffee Co.,Reno+NV" allowfullscreen>
+                </iframe>
+            </div>    
         </div>
 
-        -->
-
-        <!--Dormant for now.
-        <div class="row">
-            <div class="small-12 columns">
-                {% placeholder content %}
-            </div>
-        </div>
-    </div> -->
-
-
-
-    <footer>
-      {% static_placeholder 'footer' %}
-    </footer>
+        <footer>
+            {% static_placeholder 'footer' %}
+        </footer>
+    </div>
 {% endblock container %}
